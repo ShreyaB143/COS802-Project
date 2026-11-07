@@ -1,0 +1,1555 @@
+win_id,true_anomaly,top_template,top_template_has_alert_lines,top_template_unseen,midplane_match,text,score
+52942,1,lr=<HEX> cr=<HEX> xer=<HEX> ctr=<HEX>,False,True,True,"[ALERT 1] 2005-12-04 18:32-18:37 UTC | score higher than 100.0% of validation windows
+  Where: 1 node(s), 100% on midplane R71-M0 | component KERNEL
+  What (largest contribution first):
+  - 2x ""lr cr xer ctr"" [FATAL] - never seen during training
+  - 2x ""Special Purpose Registers"" [FATAL] - never seen during training
+  - 2x ""qw trapped"" [FATAL] - seen 18x during training
+  Volume: 390 lines in window",0.5558723953224457
+52949,1,lr=<HEX> cr=<HEX> xer=<HEX> ctr=<HEX>,False,True,True,"[ALERT 2] 2005-12-04 19:07-19:12 UTC | score higher than 100.0% of validation windows
+  Where: 1 node(s), 100% on midplane R71-M0 | component KERNEL
+  What (largest contribution first):
+  - 2x ""lr cr xer ctr"" [FATAL] - never seen during training
+  - 2x ""Special Purpose Registers"" [FATAL] - never seen during training
+  - 2x ""qw trapped"" [FATAL] - seen 18x during training
+  Volume: 390 lines in window",0.5558723953224457
+54373,1,lr=<HEX> cr=<HEX> xer=<HEX> ctr=<HEX>,False,True,True,"[ALERT 3] 2005-12-09 17:47-17:52 UTC | score higher than 100.0% of validation windows
+  Where: 240 node(s), 62% on midplane R55-M1 | component KERNEL
+  What (largest contribution first):
+  - 2x ""lr cr xer ctr"" [FATAL] - never seen during training
+  - 4x ""floating pt ex mode enable"" [FATAL] - seen 12,852x during training
+  - 230x ""ciod Error reading message prefix on Cio Stream socket to Link has been severed"" [FATAL] - never seen during training
+  Volume: 647 lines in window",0.5514794250827564
+53458,1,floating pt ex mode <NUM> enable......<NUM>,False,False,True,"[ALERT 4] 2005-12-06 13:32-13:37 UTC | score higher than 100.0% of validation windows
+  Where: 72 node(s), 82% on midplane R12-M0 | component KERNEL
+  What (largest contribution first):
+  - 4x ""floating pt ex mode enable"" [FATAL] - seen 12,852x during training
+  - 2x ""enabled exception summary"" [FATAL] - never seen during training
+  - 2x ""exception summary"" [FATAL] - never seen during training
+  Volume: 473 lines in window",0.5508712650947121
+59128,1,lr=<HEX> cr=<HEX> xer=<HEX> ctr=<HEX>,False,True,True,"[ALERT 5] 2005-12-26 06:02-06:07 UTC | score higher than 100.0% of validation windows
+  Where: 1 node(s), 100% on midplane R30-M0 | component KERNEL
+  What (largest contribution first):
+  - 2x ""lr cr xer ctr"" [FATAL] - never seen during training
+  - 2x ""Special Purpose Registers"" [FATAL] - never seen during training
+  - 2x ""capture valid"" [FATAL] - seen 18x during training
+  Volume: 364 lines in window",0.5497078796500887
+53604,1,rts panic! - stopping execution,True,False,True,"[ALERT 6] 2005-12-07 01:42-01:47 UTC | score higher than 100.0% of validation windows
+  Where: 1 node(s), 100% on midplane R03-M0 | component KERNEL
+  What (largest contribution first):
+  - 2x ""rts panic! - stopping execution"" [FATAL] - seen 3,889x during training
+  - 1x ""Special Purpose Registers"" [FATAL] - never seen during training
+  - 1x ""qw trapped"" [FATAL] - seen 18x during training
+  Volume: 198 lines in window",0.5365891102081022
+52752,1,lr=<HEX> cr=<HEX> xer=<HEX> ctr=<HEX>,False,True,True,"[ALERT 7] 2005-12-04 02:42-02:47 UTC | score higher than 100.0% of validation windows
+  Where: 2 node(s), 100% on midplane R21-M1 | component KERNEL
+  What (largest contribution first):
+  - 1x ""lr cr xer ctr"" [FATAL] - never seen during training
+  - 1x ""qw trapped"" [FATAL] - seen 18x during training
+  - 2x ""floating pt ex mode enable"" [FATAL] - seen 12,852x during training
+  Volume: 196 lines in window",0.5330068273201054
+52948,1,lr=<HEX> cr=<HEX> xer=<HEX> ctr=<HEX>,False,True,True,"[ALERT 8] 2005-12-04 19:02-19:07 UTC | score higher than 99.9% of validation windows
+  Where: 1 node(s), 100% on midplane R71-M0 | component KERNEL
+  What (largest contribution first):
+  - 1x ""lr cr xer ctr"" [FATAL] - never seen during training
+  - 1x ""Special Purpose Registers"" [FATAL] - never seen during training
+  - 1x ""qw trapped"" [FATAL] - seen 18x during training
+  Volume: 195 lines in window",0.5327895710559976
+52943,1,lr=<HEX> cr=<HEX> xer=<HEX> ctr=<HEX>,False,True,True,"[ALERT 9] 2005-12-04 18:37-18:42 UTC | score higher than 99.9% of validation windows
+  Where: 1 node(s), 100% on midplane R71-M0 | component KERNEL
+  What (largest contribution first):
+  - 1x ""lr cr xer ctr"" [FATAL] - never seen during training
+  - 1x ""Special Purpose Registers"" [FATAL] - never seen during training
+  - 1x ""qw trapped"" [FATAL] - seen 18x during training
+  Volume: 195 lines in window",0.5327895710559976
+53362,1,lr=<HEX> cr=<HEX> xer=<HEX> ctr=<HEX>,False,True,True,"[ALERT 10] 2005-12-06 05:32-05:37 UTC | score higher than 99.9% of validation windows
+  Where: 1 node(s), 100% on midplane R12-M0 | component KERNEL
+  What (largest contribution first):
+  - 1x ""lr cr xer ctr"" [FATAL] - never seen during training
+  - 1x ""Special Purpose Registers"" [FATAL] - never seen during training
+  - 1x ""qw trapped"" [FATAL] - seen 18x during training
+  Volume: 195 lines in window",0.5327895710559976
+52750,1,lr=<HEX> cr=<HEX> xer=<HEX> ctr=<HEX>,False,True,True,"[ALERT 11] 2005-12-04 02:32-02:37 UTC | score higher than 99.9% of validation windows
+  Where: 1 node(s), 100% on midplane R21-M1 | component KERNEL
+  What (largest contribution first):
+  - 1x ""lr cr xer ctr"" [FATAL] - never seen during training
+  - 1x ""Special Purpose Registers"" [FATAL] - never seen during training
+  - 1x ""qw trapped"" [FATAL] - seen 18x during training
+  Volume: 195 lines in window",0.5327895710559976
+52941,1,lr=<HEX> cr=<HEX> xer=<HEX> ctr=<HEX>,False,True,True,"[ALERT 12] 2005-12-04 18:27-18:32 UTC | score higher than 99.9% of validation windows
+  Where: 1 node(s), 100% on midplane R71-M0 | component KERNEL
+  What (largest contribution first):
+  - 1x ""lr cr xer ctr"" [FATAL] - never seen during training
+  - 1x ""Special Purpose Registers"" [FATAL] - never seen during training
+  - 1x ""qw trapped"" [FATAL] - seen 18x during training
+  Volume: 195 lines in window",0.5327895710559976
+53361,1,lr=<HEX> cr=<HEX> xer=<HEX> ctr=<HEX>,False,True,True,"[ALERT 13] 2005-12-06 05:27-05:32 UTC | score higher than 99.9% of validation windows
+  Where: 1 node(s), 100% on midplane R12-M0 | component KERNEL
+  What (largest contribution first):
+  - 1x ""lr cr xer ctr"" [FATAL] - never seen during training
+  - 1x ""Special Purpose Registers"" [FATAL] - never seen during training
+  - 1x ""qw trapped"" [FATAL] - seen 18x during training
+  Volume: 195 lines in window",0.5327895710559976
+53359,1,lr=<HEX> cr=<HEX> xer=<HEX> ctr=<HEX>,False,True,True,"[ALERT 14] 2005-12-06 05:17-05:22 UTC | score higher than 99.9% of validation windows
+  Where: 1 node(s), 100% on midplane R12-M0 | component KERNEL
+  What (largest contribution first):
+  - 1x ""lr cr xer ctr"" [FATAL] - never seen during training
+  - 1x ""Special Purpose Registers"" [FATAL] - never seen during training
+  - 1x ""qw trapped"" [FATAL] - seen 18x during training
+  Volume: 195 lines in window",0.5327895710559976
+53360,1,lr=<HEX> cr=<HEX> xer=<HEX> ctr=<HEX>,False,True,True,"[ALERT 15] 2005-12-06 05:22-05:27 UTC | score higher than 99.9% of validation windows
+  Where: 1 node(s), 100% on midplane R12-M0 | component KERNEL
+  What (largest contribution first):
+  - 1x ""lr cr xer ctr"" [FATAL] - never seen during training
+  - 1x ""Special Purpose Registers"" [FATAL] - never seen during training
+  - 1x ""qw trapped"" [FATAL] - seen 18x during training
+  Volume: 195 lines in window",0.5327895710559976
+53459,1,lr=<HEX> cr=<HEX> xer=<HEX> ctr=<HEX>,False,True,True,"[ALERT 16] 2005-12-06 13:37-13:42 UTC | score higher than 99.9% of validation windows
+  Where: 36 node(s), 84% on midplane R12-M0 | component KERNEL
+  What (largest contribution first):
+  - 1x ""lr cr xer ctr"" [FATAL] - never seen during training
+  - 2x ""floating pt ex mode enable"" [FATAL] - seen 12,852x during training
+  - 2x ""prefetch depth for core"" [FATAL] - seen 38x during training
+  Volume: 233 lines in window",0.5311392155186151
+51207,1,floating pt ex mode <NUM> enable......<NUM>,False,False,True,"[ALERT 17] 2005-11-28 17:57-18:02 UTC | score higher than 99.9% of validation windows
+  Where: 18 node(s), 100% on midplane R63-M0 | component KERNEL
+  What (largest contribution first):
+  - 20x ""floating pt ex mode enable"" [FATAL] - seen 12,852x during training
+  - 10x ""invalid compare"" [FATAL] - never seen during training
+  - 10x ""data TLB error interrupt"" [FATAL] - seen 152,723x during training
+  Volume: 1142 lines in window",0.5270566697895817
+53264,1,floating pt ex mode <NUM> enable......<NUM>,False,False,True,"[ALERT 18] 2005-12-05 21:22-21:27 UTC | score higher than 99.7% of validation windows
+  Where: 10 node(s), 100% on midplane R01-M1 | component KERNEL
+  What (largest contribution first):
+  - 2x ""floating pt ex mode enable"" [FATAL] - seen 12,852x during training
+  - 8x ""ciod Error reading message prefix on Cio Stream socket to Link has been severed"" [FATAL] - never seen during training
+  - 12x ""CE sym at mask"" [INFO] - seen 146,285x during training
+  Volume: 142 lines in window",0.5246886377436513
+58776,1,minus normalized number..................<NUM>,False,True,True,"[ALERT 19] 2005-12-25 00:42-00:47 UTC | score higher than 99.6% of validation windows
+  Where: 2 node(s), 99% on midplane R41-M0 | component KERNEL
+  What (largest contribution first):
+  - 1x ""minus normalized number"" [FATAL] - never seen during training
+  - 1x ""plus denormalized number"" [FATAL] - never seen during training
+  - 1x ""minus denormalized number"" [FATAL] - never seen during training
+  Volume: 137 lines in window",0.5240585696998467
+53603,1,lr=<HEX> cr=<HEX> xer=<HEX> ctr=<HEX>,False,True,True,"[ALERT 20] 2005-12-07 01:37-01:42 UTC | score higher than 99.5% of validation windows
+  Where: 1 node(s), 100% on midplane R03-M0 | component KERNEL
+  What (largest contribution first):
+  - 1x ""lr cr xer ctr"" [FATAL] - never seen during training
+  - 1x ""Special Purpose Registers"" [FATAL] - never seen during training
+  - 1x ""qw trapped"" [FATAL] - seen 18x during training
+  Volume: 192 lines in window",0.5222551106990254
+52950,1,qw trapped............<NUM>,False,False,False,"[ALERT 21] 2005-12-04 19:12-19:17 UTC | score higher than 99.5% of validation windows
+  Where: 74 node(s), 69% on midplane R71-M0 | component KERNEL
+  What (largest contribution first):
+  - 1x ""qw trapped"" [FATAL] - seen 18x during training
+  - 2x ""floating pt ex mode enable"" [FATAL] - seen 12,852x during training
+  - 1x ""Floating Point Status and Control Register"" [FATAL] - never seen during training
+  Volume: 284 lines in window",0.5218040174494216
+59813,1,lr=<HEX> cr=<HEX> xer=<HEX> ctr=<HEX>,False,True,True,"[ALERT 22] 2005-12-28 15:07-15:12 UTC | score higher than 99.3% of validation windows
+  Where: 1 node(s), 100% on midplane R10-M0 | component KERNEL
+  What (largest contribution first):
+  - 1x ""lr cr xer ctr"" [FATAL] - never seen during training
+  - 2x ""floating pt ex mode enable"" [FATAL] - seen 12,852x during training
+  - 1x ""invalid operation exception summary"" [FATAL] - never seen during training
+  Volume: 58 lines in window",0.5198289856373247
+53321,1,floating pt ex mode <NUM> enable......<NUM>,False,False,False,"[ALERT 23] 2005-12-06 02:07-02:12 UTC | score higher than 99.2% of validation windows
+  Where: 166 node(s), 54% on midplane R52-M1 | component KERNEL
+  What (largest contribution first):
+  - 2x ""floating pt ex mode enable"" [FATAL] - seen 12,852x during training
+  - 8x ""critical input interrupt unit bit warning for torus z- wire suppressing further interru..."" [INFO] - never seen during training
+  - 2x ""prefetch depth for core"" [FATAL] - seen 38x during training
+  Volume: 367 lines in window",0.5187040251631436
+59136,1,floating pt ex mode <NUM> enable......<NUM>,False,False,True,"[ALERT 24] 2005-12-26 06:42-06:47 UTC | score higher than 99.0% of validation windows
+  Where: 17 node(s), 94% on midplane R62-M1 | component KERNEL
+  What (largest contribution first):
+  - 2x ""floating pt ex mode enable"" [FATAL] - seen 12,852x during training
+  - 1x ""plus normalized number"" [FATAL] - never seen during training
+  - 1x ""plus denormalized number"" [FATAL] - never seen during training
+  Volume: 136 lines in window",0.5154633389505059
+59108,1,floating pt ex mode <NUM> enable......<NUM>,False,False,True,"[ALERT 25] 2005-12-26 04:22-04:27 UTC | score higher than 99.0% of validation windows
+  Where: 17 node(s), 94% on midplane R63-M1 | component KERNEL
+  What (largest contribution first):
+  - 2x ""floating pt ex mode enable"" [FATAL] - seen 12,852x during training
+  - 1x ""plus normalized number"" [FATAL] - never seen during training
+  - 1x ""plus denormalized number"" [FATAL] - never seen during training
+  Volume: 136 lines in window",0.5154633389505059
+56975,1,floating pt ex mode <NUM> enable......<NUM>,False,False,True,"[ALERT 26] 2005-12-18 18:37-18:42 UTC | score higher than 99.0% of validation windows
+  Where: 17 node(s), 94% on midplane R62-M1 | component KERNEL
+  What (largest contribution first):
+  - 2x ""floating pt ex mode enable"" [FATAL] - seen 12,852x during training
+  - 1x ""plus normalized number"" [FATAL] - never seen during training
+  - 1x ""plus denormalized number"" [FATAL] - never seen during training
+  Volume: 136 lines in window",0.5140749570269657
+59270,1,lr=<HEX> cr=<HEX> xer=<HEX> ctr=<HEX>,False,True,True,"[ALERT 27] 2005-12-26 17:52-17:57 UTC | score higher than 99.0% of validation windows
+  Where: 391 node(s), 35% on midplane R72-M1 | component APP
+  What (largest contribution first):
+  - 1x ""lr cr xer ctr"" [FATAL] - never seen during training
+  - 2x ""floating pt ex mode enable"" [FATAL] - seen 12,852x during training
+  - 1x ""Floating Point Status and Control Register"" [FATAL] - never seen during training
+  Volume: 587 lines in window",0.5116393178973072
+51560,1,lr=<HEX> cr=<HEX> xer=<HEX> ctr=<HEX>,False,True,True,"[ALERT 28] 2005-11-29 23:22-23:27 UTC | score higher than 99.0% of validation windows
+  Where: 189 node(s), 53% on midplane R67-M1 | component KERNEL
+  What (largest contribution first):
+  - 1x ""lr cr xer ctr"" [FATAL] - never seen during training
+  - 2x ""floating pt ex mode enable"" [FATAL] - seen 12,852x during training
+  - 1x ""Floating Point Status and Control Register"" [FATAL] - never seen during training
+  Volume: 385 lines in window",0.5103609249190378
+59214,1,,False,False,True,"[ALERT 29] 2005-12-26 13:12-13:17 UTC | score higher than 99.0% of validation windows
+  Where: 28 node(s), 84% on midplane R61-M0 | component KERNEL
+  What (largest contribution first):
+  - no single event type dominates; the unusual part is the overall mix/volume
+  Volume: 148 lines in window",0.5038407272134484
+58654,1,floating pt ex mode <NUM> enable......<NUM>,False,False,True,"[ALERT 30] 2005-12-24 14:32-14:37 UTC | score higher than 98.9% of validation windows
+  Where: 35 node(s), 82% on midplane R67-M1 | component KERNEL
+  What (largest contribution first):
+  - 2x ""floating pt ex mode enable"" [FATAL] - seen 12,852x during training
+  - 2x ""L3 directory error s dcr detected and corrected over seconds"" [INFO] - never seen during training
+  Volume: 156 lines in window",0.4997672999991524
+59805,1,floating pt ex mode <NUM> enable......<NUM>,False,False,True,"[ALERT 31] 2005-12-28 14:27-14:32 UTC | score higher than 98.9% of validation windows
+  Where: 35 node(s), 83% on midplane R35-M0 | component KERNEL
+  What (largest contribution first):
+  - 2x ""floating pt ex mode enable"" [FATAL] - seen 12,852x during training
+  Volume: 156 lines in window",0.4986694491981439
+61496,1,floating pt ex mode <NUM> enable......<NUM>,False,False,True,"[ALERT 32] 2006-01-03 11:22-11:27 UTC | score higher than 98.9% of validation windows
+  Where: 129 node(s), 55% on midplane R27-M0 | component KERNEL
+  What (largest contribution first):
+  - 2x ""floating pt ex mode enable"" [FATAL] - seen 12,852x during training
+  - 1x ""plus denormalized number"" [FATAL] - never seen during training
+  - 1x ""minus denormalized number"" [FATAL] - never seen during training
+  Volume: 264 lines in window",0.49456016105556305
+49954,1,floating pt ex mode <NUM> enable......<NUM>,False,False,True,"[ALERT 33] 2005-11-24 09:32-09:37 UTC | score higher than 98.9% of validation windows
+  Where: 9 node(s), 100% on midplane R62-M0 | component KERNEL
+  What (largest contribution first):
+  - 2x ""floating pt ex mode enable"" [FATAL] - seen 12,852x during training
+  Volume: 120 lines in window",0.4919783469460854
+59286,1,floating pt ex mode <NUM> enable......<NUM>,False,False,True,"[ALERT 34] 2005-12-26 19:12-19:17 UTC | score higher than 98.9% of validation windows
+  Where: 282 node(s), 31% on midplane R05-M1 | component APP
+  What (largest contribution first):
+  - 2x ""floating pt ex mode enable"" [FATAL] - seen 12,852x during training
+  - 1x ""enable invalid operation exceptions"" [FATAL] - never seen during training
+  - 1x ""enable non-IEEE mode"" [FATAL] - never seen during training
+  Volume: 416 lines in window",0.4911248888344496
+58727,1,floating pt ex mode <NUM> enable......<NUM>,False,False,True,"[ALERT 35] 2005-12-24 20:37-20:42 UTC | score higher than 98.9% of validation windows
+  Where: 67 node(s), 68% on midplane R61-M0 | component KERNEL
+  What (largest contribution first):
+  - 2x ""floating pt ex mode enable"" [FATAL] - seen 12,852x during training
+  - 1x ""invalid compare"" [FATAL] - never seen during training
+  - 1x ""plus zero"" [FATAL] - never seen during training
+  Volume: 188 lines in window",0.49071174685397206
+58064,1,floating pt ex mode <NUM> enable......<NUM>,False,False,True,"[ALERT 36] 2005-12-22 13:22-13:27 UTC | score higher than 98.9% of validation windows
+  Where: 163 node(s), 44% on midplane R54-M0 | component KERNEL
+  What (largest contribution first):
+  - 2x ""floating pt ex mode enable"" [FATAL] - seen 12,852x during training
+  - 1x ""instruction address"" [FATAL] - seen 51,150x during training
+  Volume: 326 lines in window",0.4887858585517624
+49537,1,General Purpose Registers:,False,True,True,"[ALERT 37] 2005-11-22 22:47-22:52 UTC | score higher than 98.9% of validation windows
+  Where: 1 node(s), 100% on midplane R02-M0 | component KERNEL
+  What (largest contribution first):
+  - 1x ""General Purpose Registers"" [FATAL] - never seen during training
+  - 1x ""problem state sup usr"" [FATAL] - seen 6,447x during training
+  - 1x ""Core Configuration Register"" [FATAL] - never seen during training
+  Volume: 44 lines in window",0.4824399267259722
+59370,1,floating pt ex mode <NUM> enable......<NUM>,False,False,False,"[ALERT 38] 2005-12-27 02:12-02:17 UTC | score higher than 98.9% of validation windows
+  Where: 94 node(s), 49% on midplane R37-M1 | component KERNEL
+  What (largest contribution first):
+  - 2x ""floating pt ex mode enable"" [FATAL] - seen 12,852x during training
+  - 1x ""plus normalized number"" [FATAL] - never seen during training
+  - 1x ""plus denormalized number"" [FATAL] - never seen during training
+  Volume: 418 lines in window",0.48078976112808075
+52261,1,floating pt ex mode <NUM> enable......<NUM>,False,False,False,"[ALERT 39] 2005-12-02 09:47-09:52 UTC | score higher than 98.8% of validation windows
+  Where: 512 node(s), 17% on midplane R05-M1 | component APP
+  What (largest contribution first):
+  - 2x ""floating pt ex mode enable"" [FATAL] - seen 12,852x during training
+  - 46x ""CE sym at mask"" [INFO] - seen 146,285x during training
+  Volume: 686 lines in window",0.46751058643121063
+55974,1,floating pt ex mode <NUM> enable......<NUM>,False,False,False,"[ALERT 40] 2005-12-15 07:12-07:17 UTC | score higher than 98.8% of validation windows
+  Where: 569 node(s), 17% on midplane R05-M1 | component APP
+  What (largest contribution first):
+  - 2x ""floating pt ex mode enable"" [FATAL] - seen 12,852x during training
+  - 1x ""invalid operation exception sqrt"" [FATAL] - never seen during training
+  - 1x ""invalid operation exception software"" [FATAL] - never seen during training
+  Volume: 724 lines in window",0.4643456526193959
+53453,0,Node card status: no ALERTs are active. Clock Mode is Low. Clock Select is Midplane. Phy JTAG Reset is asserted. ASIC JTAG Reset is asserted. Temperature Mask is not active. No temperature error. Temperature Limit Error Latch is clear. PGOOD IS NOT ASSERTED. PGOOD ERROR LATCH IS ACTIVE. MPGOOD IS NOT OK. MPGOOD ERROR LATCH IS ACTIVE. The <NUM> volt rail is OK. The <NUM> volt rail is OK.,False,False,,"[ALERT 41] 2005-12-06 13:07-13:12 UTC | score higher than 98.8% of validation windows
+  Where: 24 node(s), 81% on midplane R52-M1 | component DISCOVERY
+  What (largest contribution first):
+  - 6x ""Node card status no ALERTs are active. Clock Mode is Low. Clock Select is Midplane. Phy..."" [ERROR] - seen 15,812x during training
+  - 6x ""Node card is not fully functional"" [WARNING] - seen 16,278x during training
+  - 1x ""Prepare For Service shutting down Node card m Lctn m Card Sernum m Lp FF F2 9F C6 0D E9..."" [WARNING] - never seen during training
+  Volume: 43 lines in window",0.4626272262282925
+50687,1,floating pt ex mode <NUM> enable......<NUM>,False,False,True,"[ALERT 42] 2005-11-26 22:37-22:42 UTC | score higher than 98.8% of validation windows
+  Where: 417 node(s), 15% on midplane R23-M0 | component KERNEL
+  What (largest contribution first):
+  - 2x ""floating pt ex mode enable"" [FATAL] - seen 12,852x during training
+  - 160x ""CE sym at mask"" [INFO] - seen 146,285x during training
+  - 333x ""ciod Error reading message prefix on Cio Stream socket to Link has been severed"" [FATAL] - never seen during training
+  Volume: 867 lines in window",0.4625872468561712
+50988,1,floating pt ex mode <NUM> enable......<NUM>,False,False,False,"[ALERT 43] 2005-11-27 23:42-23:47 UTC | score higher than 98.8% of validation windows
+  Where: 342 node(s), 20% on midplane R03-M1 | component KERNEL
+  What (largest contribution first):
+  - 2x ""floating pt ex mode enable"" [FATAL] - seen 12,852x during training
+  - 145x ""ciod Error reading message prefix on Cio Stream socket to Link has been severed"" [FATAL] - never seen during training
+  Volume: 615 lines in window",0.4621358490771225
+51285,0,Node card status: no ALERTs are active. Clock Mode is Low. Clock Select is Midplane. Phy JTAG Reset is asserted. ASIC JTAG Reset is asserted. Temperature Mask is not active. No temperature error. Temperature Limit Error Latch is clear. PGOOD IS NOT ASSERTED. PGOOD ERROR LATCH IS ACTIVE. MPGOOD IS NOT OK. MPGOOD ERROR LATCH IS ACTIVE. The <NUM> volt rail is OK. The <NUM> volt rail is OK.,False,False,,"[ALERT 44] 2005-11-29 00:27-00:32 UTC | score higher than 98.8% of validation windows
+  Where: 17 node(s), 100% on midplane R43-M1 | component DISCOVERY
+  What (largest contribution first):
+  - 15x ""Node card status no ALERTs are active. Clock Mode is Low. Clock Select is Midplane. Phy..."" [ERROR] - seen 15,812x during training
+  - 15x ""Can not get assembly information for node card"" [SEVERE] - seen 16,219x during training
+  - 1x ""Prepare For Service shutting down Node card m Lctn m Card Sernum m Lp FF F2 9F C3 AD 0D..."" [WARNING] - never seen during training
+  Volume: 64 lines in window",0.46131116512275494
+50050,1,floating pt ex mode <NUM> enable......<NUM>,False,False,False,"[ALERT 45] 2005-11-24 17:32-17:37 UTC | score higher than 98.8% of validation windows
+  Where: 317 node(s), 21% on midplane R03-M1 | component APP
+  What (largest contribution first):
+  - 2x ""floating pt ex mode enable"" [FATAL] - seen 12,852x during training
+  - 1x ""invalid compare"" [FATAL] - never seen during training
+  Volume: 572 lines in window",0.4610515021250273
+52658,0,Node card status: no ALERTs are active. Clock Mode is Low. Clock Select is Midplane. Phy JTAG Reset is asserted. ASIC JTAG Reset is asserted. Temperature Mask is not active. No temperature error. Temperature Limit Error Latch is clear. PGOOD IS NOT ASSERTED. PGOOD ERROR LATCH IS ACTIVE. MPGOOD IS NOT OK. MPGOOD ERROR LATCH IS ACTIVE. The <NUM> volt rail is OK. The <NUM> volt rail is OK.,False,False,,"[ALERT 46] 2005-12-03 18:52-18:57 UTC | score higher than 98.8% of validation windows
+  Where: 42 node(s), 22% on midplane R10-M0 | component DISCOVERY
+  What (largest contribution first):
+  - 27x ""Node card status no ALERTs are active. Clock Mode is Low. Clock Select is Midplane. Phy..."" [ERROR] - seen 15,812x during training
+  - 28x ""Can not get assembly information for node card"" [SEVERE] - seen 16,219x during training
+  - 6x ""End Service Action performed upon by root"" [WARNING] - seen 99x during training
+  Volume: 184 lines in window",0.46029642355383943
+52753,0,Node card status: no ALERTs are active. Clock Mode is Low. Clock Select is Midplane. Phy JTAG Reset is asserted. ASIC JTAG Reset is asserted. Temperature Mask is not active. No temperature error. Temperature Limit Error Latch is clear. PGOOD IS NOT ASSERTED. PGOOD ERROR LATCH IS ACTIVE. MPGOOD IS NOT OK. MPGOOD ERROR LATCH IS ACTIVE. The <NUM> volt rail is OK. The <NUM> volt rail is OK.,False,False,,"[ALERT 47] 2005-12-04 02:47-02:52 UTC | score higher than 98.8% of validation windows
+  Where: 17 node(s), 100% on midplane R21-M1 | component DISCOVERY
+  What (largest contribution first):
+  - 14x ""Node card status no ALERTs are active. Clock Mode is Low. Clock Select is Midplane. Phy..."" [ERROR] - seen 15,812x during training
+  - 14x ""Can not get assembly information for node card"" [SEVERE] - seen 16,219x during training
+  - 14x ""Node card is not fully functional"" [WARNING] - seen 16,278x during training
+  Volume: 60 lines in window",0.4593090725598841
+51187,0,Node card status: no ALERTs are active. Clock Mode is Low. Clock Select is Midplane. Phy JTAG Reset is asserted. ASIC JTAG Reset is asserted. Temperature Mask is not active. No temperature error. Temperature Limit Error Latch is clear. PGOOD IS NOT ASSERTED. PGOOD ERROR LATCH IS ACTIVE. MPGOOD IS NOT OK. MPGOOD ERROR LATCH IS ACTIVE. The <NUM> volt rail is OK. The <NUM> volt rail is OK.,False,False,,"[ALERT 48] 2005-11-28 16:17-16:22 UTC | score higher than 98.7% of validation windows
+  Where: 12 node(s), 100% on midplane R03-M1 | component DISCOVERY
+  What (largest contribution first):
+  - 10x ""Node card status no ALERTs are active. Clock Mode is Low. Clock Select is Midplane. Phy..."" [ERROR] - seen 15,812x during training
+  - 1x ""End Service Action is restarting the Node cards in Midplane as part of Service Action"" [WARNING] - never seen during training
+  - 10x ""Can not get assembly information for node card"" [SEVERE] - seen 16,219x during training
+  Volume: 35 lines in window",0.45819819873482137
+54394,0,Node card status: no ALERTs are active. Clock Mode is Low. Clock Select is Midplane. Phy JTAG Reset is asserted. ASIC JTAG Reset is asserted. Temperature Mask is not active. No temperature error. Temperature Limit Error Latch is clear. PGOOD IS NOT ASSERTED. PGOOD ERROR LATCH IS ACTIVE. MPGOOD IS NOT OK. MPGOOD ERROR LATCH IS ACTIVE. The <NUM> volt rail is OK. The <NUM> volt rail is OK.,False,False,,"[ALERT 49] 2005-12-09 19:32-19:37 UTC | score higher than 98.7% of validation windows
+  Where: 15 node(s), 92% on midplane R55-M1 | component DISCOVERY
+  What (largest contribution first):
+  - 11x ""Node card status no ALERTs are active. Clock Mode is Low. Clock Select is Midplane. Phy..."" [ERROR] - seen 15,812x during training
+  - 1x ""Controlling BG/L rows"" [INFO] - seen 29x during training
+  - 1x ""Starting System Controller"" [INFO] - seen 50x during training
+  Volume: 41 lines in window",0.45693949664491795
+51571,0,Node card status: no ALERTs are active. Clock Mode is Low. Clock Select is Midplane. Phy JTAG Reset is asserted. ASIC JTAG Reset is asserted. Temperature Mask is not active. No temperature error. Temperature Limit Error Latch is clear. PGOOD IS NOT ASSERTED. PGOOD ERROR LATCH IS ACTIVE. MPGOOD IS NOT OK. MPGOOD ERROR LATCH IS ACTIVE. The <NUM> volt rail is OK. The <NUM> volt rail is OK.,False,False,,"[ALERT 50] 2005-11-30 00:17-00:22 UTC | score higher than 98.7% of validation windows
+  Where: 12 node(s), 100% on midplane R67-M1 | component DISCOVERY
+  What (largest contribution first):
+  - 15x ""Node card status no ALERTs are active. Clock Mode is Low. Clock Select is Midplane. Phy..."" [ERROR] - seen 15,812x during training
+  - 15x ""Can not get assembly information for node card"" [SEVERE] - seen 16,219x during training
+  - 1x ""End Service Action is restarting the Node cards in Midplane as part of Service Action"" [WARNING] - never seen during training
+  Volume: 81 lines in window",0.45676811558464187
+53606,0,Node card status: no ALERTs are active. Clock Mode is Low. Clock Select is Midplane. Phy JTAG Reset is asserted. ASIC JTAG Reset is asserted. Temperature Mask is not active. No temperature error. Temperature Limit Error Latch is clear. PGOOD IS NOT ASSERTED. PGOOD ERROR LATCH IS ACTIVE. MPGOOD IS NOT OK. MPGOOD ERROR LATCH IS ACTIVE. The <NUM> volt rail is OK. The <NUM> volt rail is OK.,False,False,,"[ALERT 51] 2005-12-07 01:52-01:57 UTC | score higher than 98.7% of validation windows
+  Where: 17 node(s), 100% on midplane R03-M0 | component DISCOVERY
+  What (largest contribution first):
+  - 15x ""Node card status no ALERTs are active. Clock Mode is Low. Clock Select is Midplane. Phy..."" [ERROR] - seen 15,812x during training
+  - 15x ""Can not get assembly information for node card"" [SEVERE] - seen 16,219x during training
+  - 15x ""Node card is not fully functional"" [WARNING] - seen 16,278x during training
+  Volume: 59 lines in window",0.45646983886516446
+50711,1,floating pt ex mode <NUM> enable......<NUM>,False,False,True,"[ALERT 52] 2005-11-27 00:37-00:42 UTC | score higher than 98.6% of validation windows
+  Where: 502 node(s), 12% on midplane R03-M1 | component KERNEL
+  What (largest contribution first):
+  - 2x ""floating pt ex mode enable"" [FATAL] - seen 12,852x during training
+  - 151x ""CE sym at mask"" [INFO] - seen 146,285x during training
+  - 1x ""invalid operation exception software"" [FATAL] - never seen during training
+  Volume: 1162 lines in window",0.45624296731018577
+50737,1,floating pt ex mode <NUM> enable......<NUM>,False,False,False,"[ALERT 53] 2005-11-27 02:47-02:52 UTC | score higher than 98.6% of validation windows
+  Where: 494 node(s), 14% on midplane R03-M1 | component KERNEL
+  What (largest contribution first):
+  - 2x ""floating pt ex mode enable"" [FATAL] - seen 12,852x during training
+  Volume: 899 lines in window",0.45619205627286946
+50758,1,floating pt ex mode <NUM> enable......<NUM>,False,False,True,"[ALERT 54] 2005-11-27 04:32-04:37 UTC | score higher than 98.5% of validation windows
+  Where: 527 node(s), 11% on midplane R03-M1 | component KERNEL
+  What (largest contribution first):
+  - 2x ""floating pt ex mode enable"" [FATAL] - seen 12,852x during training
+  - 54x ""CE sym at mask"" [INFO] - seen 146,285x during training
+  - 4x ""L3 EDRAM error s dcr detected and corrected over seconds"" [INFO] - never seen during training
+  Volume: 1229 lines in window",0.45449466445224307
+50009,1,data write plb error..............<NUM>,False,False,True,"[ALERT 55] 2005-11-24 14:07-14:12 UTC | score higher than 98.5% of validation windows
+  Where: 527 node(s), 11% on midplane R03-M1 | component KERNEL
+  What (largest contribution first):
+  - 1x ""data write plb error"" [FATAL] - seen 213x during training
+  - 2x ""floating pt ex mode enable"" [FATAL] - seen 12,852x during training
+  - 57x ""CE sym at mask"" [INFO] - seen 146,285x during training
+  Volume: 1228 lines in window",0.45348872281854347
+50747,1,floating pt ex mode <NUM> enable......<NUM>,False,False,True,"[ALERT 56] 2005-11-27 03:37-03:42 UTC | score higher than 98.5% of validation windows
+  Where: 526 node(s), 11% on midplane R03-M1 | component KERNEL
+  What (largest contribution first):
+  - 2x ""floating pt ex mode enable"" [FATAL] - seen 12,852x during training
+  - 81x ""CE sym at mask"" [INFO] - seen 146,285x during training
+  Volume: 1252 lines in window",0.45296756298040314
+51865,0,Node card status: no ALERTs are active. Clock Mode is Low. Clock Select is Midplane. Phy JTAG Reset is asserted. ASIC JTAG Reset is asserted. Temperature Mask is not active. No temperature error. Temperature Limit Error Latch is clear. PGOOD IS NOT ASSERTED. PGOOD ERROR LATCH IS ACTIVE. MPGOOD IS NOT OK. MPGOOD ERROR LATCH IS ACTIVE. The <NUM> volt rail is OK. The <NUM> volt rail is OK.,False,False,,"[ALERT 57] 2005-12-01 00:47-00:52 UTC | score higher than 98.5% of validation windows
+  Where: 17 node(s), 92% on midplane R22-M0 | component DISCOVERY
+  What (largest contribution first):
+  - 15x ""Node card status no ALERTs are active. Clock Mode is Low. Clock Select is Midplane. Phy..."" [ERROR] - seen 15,812x during training
+  - 1x ""End Service Action performed upon by root"" [WARNING] - seen 99x during training
+  - 1x ""ddr activating redundant bit steering for next allocation rank symbol"" [INFO] - seen 46x during training
+  Volume: 60 lines in window",0.4525652314235108
+52659,0,Node card status: no ALERTs are active. Clock Mode is Low. Clock Select is Midplane. Phy JTAG Reset is asserted. ASIC JTAG Reset is asserted. Temperature Mask is not active. No temperature error. Temperature Limit Error Latch is clear. PGOOD IS NOT ASSERTED. PGOOD ERROR LATCH IS ACTIVE. MPGOOD IS NOT OK. MPGOOD ERROR LATCH IS ACTIVE. The <NUM> volt rail is OK. The <NUM> volt rail is OK.,False,False,,"[ALERT 58] 2005-12-03 18:57-19:02 UTC | score higher than 98.5% of validation windows
+  Where: 67 node(s), 33% on midplane R45-M0 | component DISCOVERY
+  What (largest contribution first):
+  - 59x ""Node card status no ALERTs are active. Clock Mode is Low. Clock Select is Midplane. Phy..."" [ERROR] - seen 15,812x during training
+  - 2x ""End Service Action performed upon by root"" [WARNING] - seen 99x during training
+  - 60x ""Can not get assembly information for node card"" [SEVERE] - seen 16,219x during training
+  Volume: 264 lines in window",0.4524751758084109
+51040,1,floating pt ex mode <NUM> enable......<NUM>,False,False,True,"[ALERT 59] 2005-11-28 04:02-04:07 UTC | score higher than 98.5% of validation windows
+  Where: 518 node(s), 12% on midplane R03-M1 | component KERNEL
+  What (largest contribution first):
+  - 2x ""floating pt ex mode enable"" [FATAL] - seen 12,852x during training
+  Volume: 1172 lines in window",0.452280776679453
+54204,0,Node card status: no ALERTs are active. Clock Mode is Low. Clock Select is Midplane. Phy JTAG Reset is asserted. ASIC JTAG Reset is asserted. Temperature Mask is not active. No temperature error. Temperature Limit Error Latch is clear. PGOOD IS NOT ASSERTED. PGOOD ERROR LATCH IS ACTIVE. MPGOOD IS NOT OK. MPGOOD ERROR LATCH IS ACTIVE. The <NUM> volt rail is OK. The <NUM> volt rail is OK.,False,False,,"[ALERT 60] 2005-12-09 03:42-03:47 UTC | score higher than 98.5% of validation windows
+  Where: 17 node(s), 100% on midplane R63-M0 | component DISCOVERY
+  What (largest contribution first):
+  - 15x ""Node card status no ALERTs are active. Clock Mode is Low. Clock Select is Midplane. Phy..."" [ERROR] - seen 15,812x during training
+  - 15x ""Can not get assembly information for node card"" [SEVERE] - seen 16,219x during training
+  - 15x ""Node card is not fully functional"" [WARNING] - seen 16,278x during training
+  Volume: 56 lines in window",0.45189343294810475
+51586,1,floating pt ex mode <NUM> enable......<NUM>,False,False,True,"[ALERT 61] 2005-11-30 01:32-01:37 UTC | score higher than 98.5% of validation windows
+  Where: 919 node(s), 9% on midplane R53-M1 | component APP
+  What (largest contribution first):
+  - 2x ""floating pt ex mode enable"" [FATAL] - seen 12,852x during training
+  - 1x ""invalid operation exception software"" [FATAL] - never seen during training
+  - 69x ""CE sym at mask"" [INFO] - seen 146,285x during training
+  Volume: 1391 lines in window",0.45004963807109793
+58929,1,enable non-IEEE mode.....................<NUM>,False,True,True,"[ALERT 62] 2005-12-25 13:27-13:32 UTC | score higher than 98.5% of validation windows
+  Where: 66 node(s), 64% on midplane R60-M1 | component KERNEL
+  What (largest contribution first):
+  - 1x ""enable non-IEEE mode"" [FATAL] - never seen during training
+  Volume: 162 lines in window",0.4487467626336361
+52642,0,Ido chip status changed: FF:F2:9F:<NUM>:E0:<NUM>:<NUM>:0D:<NUM>:E9:1F:FC ip=<IP> v=<NUM> t=<NUM> status=M Sat Dec <NUM> <NUM>:<NUM>:<NUM> PST <NUM>,False,True,,"[ALERT 63] 2005-12-03 17:32-17:37 UTC | score higher than 98.4% of validation windows
+  Where: 47 node(s), 37% on midplane R31-M1 | component HARDWARE
+  What (largest contribution first):
+  - 1x ""Ido chip status changed FF F2 9F E0 0D E9 1F FC ip v t status M Sat Dec PST"" [INFO] - never seen during training
+  - 1x ""Ido chip status changed FF F2 9F E3 DD 0D E9 1C ip v t status M Sat Dec PST"" [INFO] - never seen during training
+  - 2x ""Prepare For Service is being done on this Midplane m Lctn m Card Sernum i Which Cards T..."" [WARNING] - never seen during training
+  Volume: 91 lines in window",0.44870308955090155
+58928,1,floating pt ex mode <NUM> enable......<NUM>,False,False,True,"[ALERT 64] 2005-12-25 13:22-13:27 UTC | score higher than 98.4% of validation windows
+  Where: 1 node(s), 100% on midplane R60-M1 | component KERNEL
+  What (largest contribution first):
+  - 2x ""floating pt ex mode enable"" [FATAL] - seen 12,852x during training
+  - 1x ""problem state sup usr"" [FATAL] - seen 6,447x during training
+  - 1x ""d-cache search parity error"" [FATAL] - seen 211x during training
+  Volume: 24 lines in window",0.4474259068375789
+53512,0,Node card status: no ALERTs are active. Clock Mode is Low. Clock Select is Midplane. Phy JTAG Reset is asserted. ASIC JTAG Reset is asserted. Temperature Mask is not active. No temperature error. Temperature Limit Error Latch is clear. PGOOD IS NOT ASSERTED. PGOOD ERROR LATCH IS ACTIVE. MPGOOD IS NOT OK. MPGOOD ERROR LATCH IS ACTIVE. The <NUM> volt rail is OK. The <NUM> volt rail is OK.,False,False,,"[ALERT 65] 2005-12-06 18:02-18:07 UTC | score higher than 98.4% of validation windows
+  Where: 21 node(s), 80% on midplane R12-M0 | component DISCOVERY
+  What (largest contribution first):
+  - 19x ""Node card status no ALERTs are active. Clock Mode is Low. Clock Select is Midplane. Phy..."" [ERROR] - seen 15,812x during training
+  - 19x ""Can not get assembly information for node card"" [SEVERE] - seen 16,219x during training
+  - 2x ""End Service Action performed upon by root"" [WARNING] - seen 99x during training
+  Volume: 71 lines in window",0.446115729299987
+51868,0,Node card status: no ALERTs are active. Clock Mode is Low. Clock Select is Midplane. Phy JTAG Reset is asserted. ASIC JTAG Reset is asserted. Temperature Mask is not active. No temperature error. Temperature Limit Error Latch is clear. PGOOD IS NOT ASSERTED. PGOOD ERROR LATCH IS ACTIVE. MPGOOD IS NOT OK. MPGOOD ERROR LATCH IS ACTIVE. The <NUM> volt rail is OK. The <NUM> volt rail is OK.,False,False,,"[ALERT 66] 2005-12-01 01:02-01:07 UTC | score higher than 98.4% of validation windows
+  Where: 23 node(s), 87% on midplane R22-M0 | component DISCOVERY
+  What (largest contribution first):
+  - 14x ""Node card status no ALERTs are active. Clock Mode is Low. Clock Select is Midplane. Phy..."" [ERROR] - seen 15,812x during training
+  - 14x ""Can not get assembly information for node card"" [SEVERE] - seen 16,219x during training
+  - 1x ""End Service Action is restarting the Node cards in Midplane as part of Service Action"" [WARNING] - never seen during training
+  Volume: 60 lines in window",0.4459401509743728
+52639,0,mmcs_db_server has been started: ./mmcs_db_server --useDatabase BGL --dbproperties db.properties --iolog <PATH> --reconnect-blocks all --shutdown-timeout <NUM>,False,True,,"[ALERT 67] 2005-12-03 17:17-17:22 UTC | score higher than 98.3% of validation windows
+  Where: 2 node(s) | component MMCS
+  What (largest contribution first):
+  - 1x ""mmcs db server has been started ./mmcs db server --use Database BGL --dbproperties db.p..."" [INFO] - never seen during training
+  - 1x ""idoproxydb has been started $Name V1R2M0 4 0 2 $ Input parameters -enableflush -loguser..."" [INFO] - never seen during training
+  - 1x ""BGLMaster has been started ./BGLMaster --consoleip --consoleport --configfile bglmaster..."" [INFO] - never seen during training
+  Volume: 7 lines in window",0.44570320027956195
+53454,0,Node card status: no ALERTs are active. Clock Mode is Low. Clock Select is Midplane. Phy JTAG Reset is asserted. ASIC JTAG Reset is asserted. Temperature Mask is not active. No temperature error. Temperature Limit Error Latch is clear. PGOOD IS NOT ASSERTED. PGOOD ERROR LATCH IS ACTIVE. MPGOOD IS NOT OK. MPGOOD ERROR LATCH IS ACTIVE. The <NUM> volt rail is OK. The <NUM> volt rail is OK.,False,False,,"[ALERT 68] 2005-12-06 13:12-13:17 UTC | score higher than 98.3% of validation windows
+  Where: 24 node(s), 57% on midplane R52-M1 | component DISCOVERY
+  What (largest contribution first):
+  - 9x ""Node card status no ALERTs are active. Clock Mode is Low. Clock Select is Midplane. Phy..."" [ERROR] - seen 15,812x during training
+  - 9x ""Can not get assembly information for node card"" [SEVERE] - seen 16,219x during training
+  - 1x ""ddr activating redundant bit steering for next allocation rank symbol"" [INFO] - seen 46x during training
+  Volume: 51 lines in window",0.44490335888615784
+49569,0,Node card status: no ALERTs are active. Clock Mode is Low. Clock Select is Midplane. Phy JTAG Reset is asserted. ASIC JTAG Reset is asserted. Temperature Mask is not active. No temperature error. Temperature Limit Error Latch is clear. PGOOD IS NOT ASSERTED. PGOOD ERROR LATCH IS ACTIVE. MPGOOD IS NOT OK. MPGOOD ERROR LATCH IS ACTIVE. The <NUM> volt rail is OK. The <NUM> volt rail is OK.,False,False,,"[ALERT 69] 2005-11-23 01:27-01:32 UTC | score higher than 98.3% of validation windows
+  Where: 16 node(s), 100% on midplane R47-M1 | component DISCOVERY
+  What (largest contribution first):
+  - 15x ""Node card status no ALERTs are active. Clock Mode is Low. Clock Select is Midplane. Phy..."" [ERROR] - seen 15,812x during training
+  - 15x ""Can not get assembly information for node card"" [SEVERE] - seen 16,219x during training
+  - 1x ""End Service Action performed upon by root"" [WARNING] - seen 99x during training
+  Volume: 53 lines in window",0.4443522088932026
+52660,0,Node card status: no ALERTs are active. Clock Mode is Low. Clock Select is Midplane. Phy JTAG Reset is asserted. ASIC JTAG Reset is asserted. Temperature Mask is not active. No temperature error. Temperature Limit Error Latch is clear. PGOOD IS NOT ASSERTED. PGOOD ERROR LATCH IS ACTIVE. MPGOOD IS NOT OK. MPGOOD ERROR LATCH IS ACTIVE. The <NUM> volt rail is OK. The <NUM> volt rail is OK.,False,False,,"[ALERT 70] 2005-12-03 19:02-19:07 UTC | score higher than 98.3% of validation windows
+  Where: 36 node(s), 47% on midplane R71-M0 | component DISCOVERY
+  What (largest contribution first):
+  - 27x ""Node card status no ALERTs are active. Clock Mode is Low. Clock Select is Midplane. Phy..."" [ERROR] - seen 15,812x during training
+  - 27x ""Can not get assembly information for node card"" [SEVERE] - seen 16,219x during training
+  - 1x ""End Service Action is restarting the Node cards in Midplane as part of Service Action"" [WARNING] - never seen during training
+  Volume: 113 lines in window",0.44433195160361993
+52448,0,Node card status: no ALERTs are active. Clock Mode is Low. Clock Select is Midplane. Phy JTAG Reset is asserted. ASIC JTAG Reset is asserted. Temperature Mask is not active. No temperature error. Temperature Limit Error Latch is clear. PGOOD IS NOT ASSERTED. PGOOD ERROR LATCH IS ACTIVE. MPGOOD IS NOT OK. MPGOOD ERROR LATCH IS ACTIVE. The <NUM> volt rail is OK. The <NUM> volt rail is OK.,False,False,,"[ALERT 71] 2005-12-03 01:22-01:27 UTC | score higher than 98.3% of validation windows
+  Where: 25 node(s), 51% on midplane R01-M1 | component DISCOVERY
+  What (largest contribution first):
+  - 22x ""Node card status no ALERTs are active. Clock Mode is Low. Clock Select is Midplane. Phy..."" [ERROR] - seen 15,812x during training
+  - 22x ""Can not get assembly information for node card"" [SEVERE] - seen 16,219x during training
+  - 22x ""Node card is not fully functional"" [WARNING] - seen 16,278x during training
+  Volume: 124 lines in window",0.444037871600779
+54395,0,Node card status: no ALERTs are active. Clock Mode is Low. Clock Select is Midplane. Phy JTAG Reset is asserted. ASIC JTAG Reset is asserted. Temperature Mask is not active. No temperature error. Temperature Limit Error Latch is clear. PGOOD IS NOT ASSERTED. PGOOD ERROR LATCH IS ACTIVE. MPGOOD IS NOT OK. MPGOOD ERROR LATCH IS ACTIVE. The <NUM> volt rail is OK. The <NUM> volt rail is OK.,False,False,,"[ALERT 72] 2005-12-09 19:37-19:42 UTC | score higher than 98.3% of validation windows
+  Where: 7 node(s), 100% on midplane R55-M1 | component DISCOVERY
+  What (largest contribution first):
+  - 4x ""Node card status no ALERTs are active. Clock Mode is Low. Clock Select is Midplane. Phy..."" [ERROR] - seen 15,812x during training
+  - 4x ""Can not get assembly information for node card"" [SEVERE] - seen 16,219x during training
+  - 2x ""Node card VPD check U0 node in processor card slot J1 do not match. VPD ecid found"" [INFO] - seen 5,278x during training
+  Volume: 20 lines in window",0.44378495631810316
+53463,0,Node card status: no ALERTs are active. Clock Mode is Low. Clock Select is Midplane. Phy JTAG Reset is asserted. ASIC JTAG Reset is asserted. Temperature Mask is not active. No temperature error. Temperature Limit Error Latch is clear. PGOOD IS NOT ASSERTED. PGOOD ERROR LATCH IS ACTIVE. MPGOOD IS NOT OK. MPGOOD ERROR LATCH IS ACTIVE. The <NUM> volt rail is OK. The <NUM> volt rail is OK.,False,False,,"[ALERT 73] 2005-12-06 13:57-14:02 UTC | score higher than 98.3% of validation windows
+  Where: 73 node(s), 45% on midplane R12-M0 | component KERNEL
+  What (largest contribution first):
+  - 15x ""Node card status no ALERTs are active. Clock Mode is Low. Clock Select is Midplane. Phy..."" [ERROR] - seen 15,812x during training
+  - 2x ""ddr activating redundant bit steering for next allocation rank symbol"" [INFO] - seen 46x during training
+  - 15x ""Can not get assembly information for node card"" [SEVERE] - seen 16,219x during training
+  Volume: 117 lines in window",0.44351969620614223
+59294,0,Node card status: no ALERTs are active. Clock Mode is Low. Clock Select is Midplane. Phy JTAG Reset is asserted. ASIC JTAG Reset is asserted. Temperature Mask is not active. No temperature error. Temperature Limit Error Latch is clear. PGOOD IS NOT ASSERTED. PGOOD ERROR LATCH IS ACTIVE. MPGOOD IS NOT OK. MPGOOD ERROR LATCH IS ACTIVE. The <NUM> volt rail is OK. The <NUM> volt rail is OK.,False,False,,"[ALERT 74] 2005-12-26 19:52-19:57 UTC | score higher than 98.3% of validation windows
+  Where: 17 node(s), 70% on midplane R72-M1 | component DISCOVERY
+  What (largest contribution first):
+  - 11x ""Node card status no ALERTs are active. Clock Mode is Low. Clock Select is Midplane. Phy..."" [ERROR] - seen 15,812x during training
+  - 11x ""Can not get assembly information for node card"" [SEVERE] - seen 16,219x during training
+  - 11x ""Node card is not fully functional"" [WARNING] - seen 16,278x during training
+  Volume: 93 lines in window",0.44321352294635263
+52747,0,Node card status: no ALERTs are active. Clock Mode is Low. Clock Select is Midplane. Phy JTAG Reset is asserted. ASIC JTAG Reset is asserted. Temperature Mask is not active. No temperature error. Temperature Limit Error Latch is clear. PGOOD IS NOT ASSERTED. PGOOD ERROR LATCH IS ACTIVE. MPGOOD IS NOT OK. MPGOOD ERROR LATCH IS ACTIVE. The <NUM> volt rail is OK. The <NUM> volt rail is OK.,False,False,,"[ALERT 75] 2005-12-04 02:17-02:22 UTC | score higher than 98.2% of validation windows
+  Where: 12 node(s), 81% on midplane R60-M1 | component DISCOVERY
+  What (largest contribution first):
+  - 8x ""Node card status no ALERTs are active. Clock Mode is Low. Clock Select is Midplane. Phy..."" [ERROR] - seen 15,812x during training
+  - 8x ""Can not get assembly information for node card"" [SEVERE] - seen 16,219x during training
+  - 8x ""Node card is not fully functional"" [WARNING] - seen 16,278x during training
+  Volume: 32 lines in window",0.4424880942827914
+52657,0,Node card status: no ALERTs are active. Clock Mode is Low. Clock Select is Midplane. Phy JTAG Reset is asserted. ASIC JTAG Reset is asserted. Temperature Mask is not active. No temperature error. Temperature Limit Error Latch is clear. PGOOD IS NOT ASSERTED. PGOOD ERROR LATCH IS ACTIVE. MPGOOD IS NOT OK. MPGOOD ERROR LATCH IS ACTIVE. The <NUM> volt rail is OK. The <NUM> volt rail is OK.,False,False,,"[ALERT 76] 2005-12-03 18:47-18:52 UTC | score higher than 98.2% of validation windows
+  Where: 56 node(s), 35% on midplane R05-M1 | component DISCOVERY
+  What (largest contribution first):
+  - 55x ""Node card status no ALERTs are active. Clock Mode is Low. Clock Select is Midplane. Phy..."" [ERROR] - seen 15,812x during training
+  - 4x ""End Service Action performed upon by root"" [WARNING] - seen 99x during training
+  - 55x ""Can not get assembly information for node card"" [SEVERE] - seen 16,219x during training
+  Volume: 187 lines in window",0.4424141830390532
+52954,1,Node card status: no ALERTs are active. Clock Mode is Low. Clock Select is Midplane. Phy JTAG Reset is asserted. ASIC JTAG Reset is asserted. Temperature Mask is not active. No temperature error. Temperature Limit Error Latch is clear. PGOOD IS NOT ASSERTED. PGOOD ERROR LATCH IS ACTIVE. MPGOOD IS NOT OK. MPGOOD ERROR LATCH IS ACTIVE. The <NUM> volt rail is OK. The <NUM> volt rail is OK.,False,False,False,"[ALERT 77] 2005-12-04 19:32-19:37 UTC | score higher than 98.1% of validation windows
+  Where: 129 node(s), 20% on midplane R71-M0 | component APP
+  What (largest contribution first):
+  - 8x ""Node card status no ALERTs are active. Clock Mode is Low. Clock Select is Midplane. Phy..."" [ERROR] - seen 15,812x during training
+  - 8x ""Can not get assembly information for node card"" [SEVERE] - seen 16,219x during training
+  - 8x ""Node card is not fully functional"" [WARNING] - seen 16,278x during training
+  Volume: 151 lines in window",0.4417657708944502
+51188,0,Node card status: no ALERTs are active. Clock Mode is Low. Clock Select is Midplane. Phy JTAG Reset is asserted. ASIC JTAG Reset is asserted. Temperature Mask is not active. No temperature error. Temperature Limit Error Latch is clear. PGOOD IS NOT ASSERTED. PGOOD ERROR LATCH IS ACTIVE. MPGOOD IS NOT OK. MPGOOD ERROR LATCH IS ACTIVE. The <NUM> volt rail is OK. The <NUM> volt rail is OK.,False,False,,"[ALERT 78] 2005-11-28 16:22-16:27 UTC | score higher than 98.1% of validation windows
+  Where: 9 node(s), 100% on midplane R03-M1 | component DISCOVERY
+  What (largest contribution first):
+  - 5x ""Node card status no ALERTs are active. Clock Mode is Low. Clock Select is Midplane. Phy..."" [ERROR] - seen 15,812x during training
+  - 5x ""Can not get assembly information for node card"" [SEVERE] - seen 16,219x during training
+  - 5x ""Node card is not fully functional"" [WARNING] - seen 16,278x during training
+  Volume: 31 lines in window",0.4412490986520728
+52953,0,Node card status: no ALERTs are active. Clock Mode is Low. Clock Select is Midplane. Phy JTAG Reset is asserted. ASIC JTAG Reset is asserted. Temperature Mask is not active. No temperature error. Temperature Limit Error Latch is clear. PGOOD IS NOT ASSERTED. PGOOD ERROR LATCH IS ACTIVE. MPGOOD IS NOT OK. MPGOOD ERROR LATCH IS ACTIVE. The <NUM> volt rail is OK. The <NUM> volt rail is OK.,False,False,,"[ALERT 79] 2005-12-04 19:27-19:32 UTC | score higher than 98.1% of validation windows
+  Where: 8 node(s), 100% on midplane R71-M0 | component DISCOVERY
+  What (largest contribution first):
+  - 7x ""Node card status no ALERTs are active. Clock Mode is Low. Clock Select is Midplane. Phy..."" [ERROR] - seen 15,812x during training
+  - 7x ""Can not get assembly information for node card"" [SEVERE] - seen 16,219x during training
+  - 1x ""End Service Action is restarting the Node cards in Midplane as part of Service Action"" [WARNING] - never seen during training
+  Volume: 23 lines in window",0.4403208409747571
+59293,0,Node card status: no ALERTs are active. Clock Mode is Low. Clock Select is Midplane. Phy JTAG Reset is asserted. ASIC JTAG Reset is asserted. Temperature Mask is not active. No temperature error. Temperature Limit Error Latch is clear. PGOOD IS NOT ASSERTED. PGOOD ERROR LATCH IS ACTIVE. MPGOOD IS NOT OK. MPGOOD ERROR LATCH IS ACTIVE. The <NUM> volt rail is OK. The <NUM> volt rail is OK.,False,False,,"[ALERT 80] 2005-12-26 19:47-19:52 UTC | score higher than 98.1% of validation windows
+  Where: 21 node(s), 52% on midplane R72-M1 | component DISCOVERY
+  What (largest contribution first):
+  - 19x ""Node card status no ALERTs are active. Clock Mode is Low. Clock Select is Midplane. Phy..."" [ERROR] - seen 15,812x during training
+  - 19x ""Can not get assembly information for node card"" [SEVERE] - seen 16,219x during training
+  - 19x ""Node card is not fully functional"" [WARNING] - seen 16,278x during training
+  Volume: 61 lines in window",0.4400816956444875
+52395,1,mmcs_db_server has been started: ./mmcs_db_server --useDatabase BGL --dbproperties db.properties --iolog <PATH> --reconnect-blocks all --shutdown-timeout <NUM>,False,True,True,"[ALERT 81] 2005-12-02 20:57-21:02 UTC | score higher than 98.1% of validation windows
+  Where: 2 node(s), 100% on midplane R00-M0 | component MMCS
+  What (largest contribution first):
+  - 1x ""mmcs db server has been started ./mmcs db server --use Database BGL --dbproperties db.p..."" [INFO] - never seen during training
+  - 1x ""idoproxydb has been started $Name V1R2M0 4 0 2 $ Input parameters -enableflush -loguser..."" [INFO] - never seen during training
+  - 1x ""BGLMaster has been started ./BGLMaster --consoleip --consoleport --configfile bglmaster..."" [INFO] - never seen during training
+  Volume: 5 lines in window",0.43907439744319016
+52748,0,Node card status: no ALERTs are active. Clock Mode is Low. Clock Select is Midplane. Phy JTAG Reset is asserted. ASIC JTAG Reset is asserted. Temperature Mask is not active. No temperature error. Temperature Limit Error Latch is clear. PGOOD IS NOT ASSERTED. PGOOD ERROR LATCH IS ACTIVE. MPGOOD IS NOT OK. MPGOOD ERROR LATCH IS ACTIVE. The <NUM> volt rail is OK. The <NUM> volt rail is OK.,False,False,,"[ALERT 82] 2005-12-04 02:22-02:27 UTC | score higher than 98.1% of validation windows
+  Where: 49 node(s), 38% on midplane R06-M1 | component DISCOVERY
+  What (largest contribution first):
+  - 49x ""Node card status no ALERTs are active. Clock Mode is Low. Clock Select is Midplane. Phy..."" [ERROR] - seen 15,812x during training
+  - 49x ""Can not get assembly information for node card"" [SEVERE] - seen 16,219x during training
+  - 22x ""Node card VPD check U0 node in processor card slot J1 do not match. VPD ecid found"" [INFO] - seen 5,278x during training
+  Volume: 225 lines in window",0.43695758928847445
+51282,0,Node card status: no ALERTs are active. Clock Mode is Low. Clock Select is Midplane. Phy JTAG Reset is asserted. ASIC JTAG Reset is asserted. Temperature Mask is not active. No temperature error. Temperature Limit Error Latch is clear. PGOOD IS NOT ASSERTED. PGOOD ERROR LATCH IS ACTIVE. MPGOOD IS NOT OK. MPGOOD ERROR LATCH IS ACTIVE. The <NUM> volt rail is OK. The <NUM> volt rail is OK.,False,False,,"[ALERT 83] 2005-11-29 00:12-00:17 UTC | score higher than 98.1% of validation windows
+  Where: 16 node(s), 100% on midplane R43-M1 | component DISCOVERY
+  What (largest contribution first):
+  - 15x ""Node card status no ALERTs are active. Clock Mode is Low. Clock Select is Midplane. Phy..."" [ERROR] - seen 15,812x during training
+  - 15x ""Can not get assembly information for node card"" [SEVERE] - seen 16,219x during training
+  - 15x ""Node card is not fully functional"" [WARNING] - seen 16,278x during training
+  Volume: 59 lines in window",0.4354469041476652
+53235,1,mmcs_db_server has been started: ./mmcs_db_server --useDatabase BGL --dbproperties db.properties --iolog <PATH> --reconnect-blocks all --shutdown-timeout <NUM> --shutdown-timeout <NUM>,False,True,True,"[ALERT 84] 2005-12-05 18:57-19:02 UTC | score higher than 98.1% of validation windows
+  Where: 2 node(s), 100% on midplane R00-M0 | component MMCS
+  What (largest contribution first):
+  - 1x ""mmcs db server has been started ./mmcs db server --use Database BGL --dbproperties db.p..."" [INFO] - never seen during training
+  - 1x ""idoproxydb has been started $Name V1R2M0 4 0 2 $ Input parameters -enableflush -loguser..."" [INFO] - never seen during training
+  - 1x ""BGLMaster has been started ./BGLMaster --consoleip --consoleport --configfile bglmaster..."" [INFO] - never seen during training
+  Volume: 5 lines in window",0.43270119914224564
+49816,1,mmcs_db_server has been started: ./mmcs_db_server --useDatabase BGL --dbproperties db.properties --iolog <PATH> --reconnect-blocks all --shutdown-timeout <NUM> --shutdown-timeout <NUM>,False,True,True,"[ALERT 85] 2005-11-23 22:02-22:07 UTC | score higher than 98.1% of validation windows
+  Where: 2 node(s), 100% on midplane R00-M0 | component MMCS
+  What (largest contribution first):
+  - 1x ""mmcs db server has been started ./mmcs db server --use Database BGL --dbproperties db.p..."" [INFO] - never seen during training
+  - 1x ""idoproxydb has been started $Name V1R2M0 4 0 2 $ Input parameters -enableflush -loguser..."" [INFO] - never seen during training
+  - 1x ""BGLMaster has been started ./BGLMaster --consoleip --consoleport --configfile bglmaster..."" [INFO] - never seen during training
+  Volume: 5 lines in window",0.43270119914224564
+50212,0,mmcs_db_server has been started: ./mmcs_db_server --useDatabase BGL --dbproperties db.properties --iolog <PATH> --reconnect-blocks all --shutdown-timeout <NUM> --shutdown-timeout <NUM>,False,True,,"[ALERT 86] 2005-11-25 07:02-07:07 UTC | score higher than 98.1% of validation windows
+  Where: 1 node(s) | component MMCS
+  What (largest contribution first):
+  - 1x ""mmcs db server has been started ./mmcs db server --use Database BGL --dbproperties db.p..."" [INFO] - never seen during training
+  - 1x ""idoproxydb has been started $Name V1R2M0 4 0 2 $ Input parameters -enableflush -loguser..."" [INFO] - never seen during training
+  - 1x ""BGLMaster has been started ./BGLMaster --consoleip --consoleport --configfile bglmaster..."" [INFO] - never seen during training
+  Volume: 4 lines in window",0.43234354699406957
+50333,0,mmcs_db_server has been started: ./mmcs_db_server --useDatabase BGL --dbproperties db.properties --iolog <PATH> --reconnect-blocks all --shutdown-timeout <NUM> --shutdown-timeout <NUM>,False,True,,"[ALERT 87] 2005-11-25 17:07-17:12 UTC | score higher than 98.1% of validation windows
+  Where: 1 node(s) | component MMCS
+  What (largest contribution first):
+  - 1x ""mmcs db server has been started ./mmcs db server --use Database BGL --dbproperties db.p..."" [INFO] - never seen during training
+  - 1x ""idoproxydb has been started $Name V1R2M0 4 0 2 $ Input parameters -enableflush -loguser..."" [INFO] - never seen during training
+  - 1x ""BGLMaster has been started ./BGLMaster --consoleip --consoleport --configfile bglmaster..."" [INFO] - never seen during training
+  Volume: 4 lines in window",0.43234354699406957
+53739,0,mmcs_db_server has been started: ./mmcs_db_server --useDatabase BGL --dbproperties db.properties --iolog <PATH> --reconnect-blocks all --shutdown-timeout <NUM> --shutdown-timeout <NUM>,False,True,,"[ALERT 88] 2005-12-07 12:57-13:02 UTC | score higher than 98.1% of validation windows
+  Where: 1 node(s) | component MMCS
+  What (largest contribution first):
+  - 1x ""mmcs db server has been started ./mmcs db server --use Database BGL --dbproperties db.p..."" [INFO] - never seen during training
+  - 1x ""idoproxydb has been started $Name V1R2M0 5 0 2 $ Input parameters -enableflush -loguser..."" [INFO] - never seen during training
+  - 1x ""BGLMaster has been started ./BGLMaster --consoleip --consoleport --configfile bglmaster..."" [INFO] - never seen during training
+  Volume: 4 lines in window",0.43234354699406957
+53451,0,mmcs_db_server has been started: ./mmcs_db_server --useDatabase BGL --dbproperties db.properties --iolog <PATH> --reconnect-blocks all --shutdown-timeout <NUM> --shutdown-timeout <NUM>,False,True,,"[ALERT 89] 2005-12-06 12:57-13:02 UTC | score higher than 98.1% of validation windows
+  Where: 1 node(s) | component MMCS
+  What (largest contribution first):
+  - 1x ""mmcs db server has been started ./mmcs db server --use Database BGL --dbproperties db.p..."" [INFO] - never seen during training
+  - 1x ""idoproxydb has been started $Name V1R2M0 5 0 2 $ Input parameters -enableflush -loguser..."" [INFO] - never seen during training
+  - 1x ""BGLMaster has been started ./BGLMaster --consoleip --consoleport --configfile bglmaster..."" [INFO] - never seen during training
+  Volume: 4 lines in window",0.43234354699406957
+50139,0,mmcs_db_server has been started: ./mmcs_db_server --useDatabase BGL --dbproperties db.properties --iolog <PATH> --reconnect-blocks all --shutdown-timeout <NUM> --shutdown-timeout <NUM>,False,True,,"[ALERT 90] 2005-11-25 00:57-01:02 UTC | score higher than 98.1% of validation windows
+  Where: 1 node(s) | component MMCS
+  What (largest contribution first):
+  - 1x ""mmcs db server has been started ./mmcs db server --use Database BGL --dbproperties db.p..."" [INFO] - never seen during training
+  - 1x ""idoproxydb has been started $Name V1R2M0 4 0 2 $ Input parameters -enableflush -loguser..."" [INFO] - never seen during training
+  - 1x ""BGLMaster has been started ./BGLMaster --consoleip --consoleport --configfile bglmaster..."" [INFO] - never seen during training
+  Volume: 4 lines in window",0.43234354699406957
+51547,0,mmcs_db_server has been started: ./mmcs_db_server --useDatabase BGL --dbproperties db.properties --iolog <PATH> --reconnect-blocks all --shutdown-timeout <NUM> --shutdown-timeout <NUM>,False,True,,"[ALERT 91] 2005-11-29 22:17-22:22 UTC | score higher than 98.1% of validation windows
+  Where: 1 node(s) | component MMCS
+  What (largest contribution first):
+  - 1x ""mmcs db server has been started ./mmcs db server --use Database BGL --dbproperties db.p..."" [INFO] - never seen during training
+  - 1x ""idoproxydb has been started $Name V1R2M0 4 0 2 $ Input parameters -enableflush -loguser..."" [INFO] - never seen during training
+  - 1x ""BGLMaster has been started ./BGLMaster --consoleip --consoleport --configfile bglmaster..."" [INFO] - never seen during training
+  Volume: 4 lines in window",0.43234354699406957
+50332,0,mmcs_db_server has been started: ./mmcs_db_server --useDatabase BGL --dbproperties db.properties --iolog <PATH> --reconnect-blocks all --shutdown-timeout <NUM> --shutdown-timeout <NUM>,False,True,,"[ALERT 92] 2005-11-25 17:02-17:07 UTC | score higher than 98.1% of validation windows
+  Where: 1 node(s) | component MMCS
+  What (largest contribution first):
+  - 1x ""mmcs db server has been started ./mmcs db server --use Database BGL --dbproperties db.p..."" [INFO] - never seen during training
+  - 1x ""idoproxydb has been started $Name V1R2M0 4 0 2 $ Input parameters -enableflush -loguser..."" [INFO] - never seen during training
+  - 1x ""BGLMaster has been started ./BGLMaster --consoleip --consoleport --configfile bglmaster..."" [INFO] - never seen during training
+  Volume: 4 lines in window",0.43234354699406957
+54068,0,mmcs_db_server has been started: ./mmcs_db_server --useDatabase BGL --dbproperties db.properties --iolog <PATH> --reconnect-blocks all --shutdown-timeout <NUM> --shutdown-timeout <NUM>,False,True,,"[ALERT 93] 2005-12-08 16:22-16:27 UTC | score higher than 98.1% of validation windows
+  Where: 1 node(s) | component MMCS
+  What (largest contribution first):
+  - 1x ""mmcs db server has been started ./mmcs db server --use Database BGL --dbproperties db.p..."" [INFO] - never seen during training
+  - 1x ""idoproxydb has been started $Name V1R2M0 5 0 2 $ Input parameters -enableflush -loguser..."" [INFO] - never seen during training
+  - 1x ""BGLMaster has been started ./BGLMaster --consoleip --consoleport --configfile bglmaster..."" [INFO] - never seen during training
+  Volume: 4 lines in window",0.43234354699406957
+54106,0,mmcs_db_server has been started: ./mmcs_db_server --useDatabase BGL --dbproperties db.properties --iolog <PATH> --reconnect-blocks all --shutdown-timeout <NUM> --shutdown-timeout <NUM>,False,True,,"[ALERT 94] 2005-12-08 19:32-19:37 UTC | score higher than 98.1% of validation windows
+  Where: 1 node(s) | component MMCS
+  What (largest contribution first):
+  - 1x ""mmcs db server has been started ./mmcs db server --use Database BGL --dbproperties db.p..."" [INFO] - never seen during training
+  - 1x ""idoproxydb has been started $Name V1R2M0 5 0 2 $ Input parameters -enableflush -loguser..."" [INFO] - never seen during training
+  - 1x ""BGLMaster has been started ./BGLMaster --consoleip --consoleport --configfile bglmaster..."" [INFO] - never seen during training
+  Volume: 4 lines in window",0.43234354699406957
+49542,0,mmcs_db_server has been started: ./mmcs_db_server --useDatabase BGL --dbproperties db.properties --iolog <PATH> --reconnect-blocks all --shutdown-timeout <NUM> --shutdown-timeout <NUM>,False,True,,"[ALERT 95] 2005-11-22 23:12-23:17 UTC | score higher than 98.1% of validation windows
+  Where: 1 node(s) | component MMCS
+  What (largest contribution first):
+  - 1x ""mmcs db server has been started ./mmcs db server --use Database BGL --dbproperties db.p..."" [INFO] - never seen during training
+  - 1x ""idoproxydb has been started $Name V1R2M0 4 0 2 $ Input parameters -enableflush -loguser..."" [INFO] - never seen during training
+  - 1x ""BGLMaster has been started ./BGLMaster --consoleip --consoleport --configfile bglmaster..."" [INFO] - never seen during training
+  Volume: 4 lines in window",0.43234354699406957
+52025,0,Node card status: no ALERTs are active. Clock Mode is Low. Clock Select is Midplane. Phy JTAG Reset is asserted. ASIC JTAG Reset is asserted. Temperature Mask is not active. No temperature error. Temperature Limit Error Latch is clear. PGOOD IS NOT ASSERTED. PGOOD ERROR LATCH IS ACTIVE. MPGOOD IS NOT OK. MPGOOD ERROR LATCH IS ACTIVE. The <NUM> volt rail is OK. The <NUM> volt rail is OK.,False,False,,"[ALERT 96] 2005-12-01 14:07-14:12 UTC | score higher than 97.8% of validation windows
+  Where: 15 node(s), 100% on midplane R00-M0 | component DISCOVERY
+  What (largest contribution first):
+  - 15x ""Node card status no ALERTs are active. Clock Mode is Low. Clock Select is Midplane. Phy..."" [ERROR] - seen 15,812x during training
+  - 15x ""Can not get assembly information for node card"" [SEVERE] - seen 16,219x during training
+  - 15x ""Node card is not fully functional"" [WARNING] - seen 16,278x during training
+  Volume: 47 lines in window",0.4312645548247531
+53513,0,Node card status: no ALERTs are active. Clock Mode is Low. Clock Select is Midplane. Phy JTAG Reset is asserted. ASIC JTAG Reset is asserted. Temperature Mask is not active. No temperature error. Temperature Limit Error Latch is clear. PGOOD IS NOT ASSERTED. PGOOD ERROR LATCH IS ACTIVE. MPGOOD IS NOT OK. MPGOOD ERROR LATCH IS ACTIVE. The <NUM> volt rail is OK. The <NUM> volt rail is OK.,False,False,,"[ALERT 97] 2005-12-06 18:07-18:12 UTC | score higher than 97.8% of validation windows
+  Where: 11 node(s), 100% on midplane R52-M1 | component DISCOVERY
+  What (largest contribution first):
+  - 11x ""Node card status no ALERTs are active. Clock Mode is Low. Clock Select is Midplane. Phy..."" [ERROR] - seen 15,812x during training
+  - 11x ""Can not get assembly information for node card"" [SEVERE] - seen 16,219x during training
+  - 1x ""Node card VPD check U0 node in processor card slot J1 do not match. VPD ecid found"" [INFO] - seen 5,278x during training
+  Volume: 37 lines in window",0.43115236264852325
+52014,0,mmcs_db_server has been started: ./mmcs_db_server --useDatabase BGL --dbproperties db.properties --iolog <PATH> --reconnect-blocks all --shutdown-timeout <NUM>,False,True,,"[ALERT 98] 2005-12-01 13:12-13:17 UTC | score higher than 97.7% of validation windows
+  Where: 1 node(s) | component MMCS
+  What (largest contribution first):
+  - 1x ""mmcs db server has been started ./mmcs db server --use Database BGL --dbproperties db.p..."" [INFO] - never seen during training
+  - 1x ""idoproxydb has been started $Name V1R2M0 4 0 2 $ Input parameters -enableflush -loguser..."" [INFO] - never seen during training
+  - 1x ""BGLMaster has been started ./BGLMaster --consoleip --consoleport --configfile bglmaster..."" [INFO] - never seen during training
+  Volume: 4 lines in window",0.4307973044953013
+51729,0,mmcs_db_server has been started: ./mmcs_db_server --useDatabase BGL --dbproperties db.properties --iolog <PATH> --reconnect-blocks all --shutdown-timeout <NUM>,False,True,,"[ALERT 99] 2005-11-30 13:27-13:32 UTC | score higher than 97.7% of validation windows
+  Where: 1 node(s) | component MMCS
+  What (largest contribution first):
+  - 1x ""mmcs db server has been started ./mmcs db server --use Database BGL --dbproperties db.p..."" [INFO] - never seen during training
+  - 1x ""idoproxydb has been started $Name V1R2M0 4 0 2 $ Input parameters -enableflush -loguser..."" [INFO] - never seen during training
+  - 1x ""BGLMaster has been started ./BGLMaster --consoleip --consoleport --configfile bglmaster..."" [INFO] - never seen during training
+  Volume: 4 lines in window",0.4307973044953013
+52815,0,mmcs_db_server has been started: ./mmcs_db_server --useDatabase BGL --dbproperties db.properties --iolog <PATH> --reconnect-blocks all --shutdown-timeout <NUM>,False,True,,"[ALERT 100] 2005-12-04 07:57-08:02 UTC | score higher than 97.7% of validation windows
+  Where: 1 node(s) | component MMCS
+  What (largest contribution first):
+  - 1x ""mmcs db server has been started ./mmcs db server --use Database BGL --dbproperties db.p..."" [INFO] - never seen during training
+  - 1x ""idoproxydb has been started $Name V1R2M0 4 0 2 $ Input parameters -enableflush -loguser..."" [INFO] - never seen during training
+  - 1x ""BGLMaster has been started ./BGLMaster --consoleip --consoleport --configfile bglmaster..."" [INFO] - never seen during training
+  Volume: 4 lines in window",0.4307973044953013
+52587,0,mmcs_db_server has been started: ./mmcs_db_server --useDatabase BGL --dbproperties db.properties --iolog <PATH> --reconnect-blocks all --shutdown-timeout <NUM>,False,True,,"[ALERT 101] 2005-12-03 12:57-13:02 UTC | score higher than 97.7% of validation windows
+  Where: 1 node(s) | component MMCS
+  What (largest contribution first):
+  - 1x ""mmcs db server has been started ./mmcs db server --use Database BGL --dbproperties db.p..."" [INFO] - never seen during training
+  - 1x ""idoproxydb has been started $Name V1R2M0 4 0 2 $ Input parameters -enableflush -loguser..."" [INFO] - never seen during training
+  - 1x ""BGLMaster has been started ./BGLMaster --consoleip --consoleport --configfile bglmaster..."" [INFO] - never seen during training
+  Volume: 4 lines in window",0.4307973044953013
+60211,0,Node card status: no ALERTs are active. Clock Mode is Low. Clock Select is Midplane. Phy JTAG Reset is asserted. ASIC JTAG Reset is asserted. Temperature Mask is not active. No temperature error. Temperature Limit Error Latch is clear. PGOOD IS NOT ASSERTED. PGOOD ERROR LATCH IS ACTIVE. MPGOOD IS NOT OK. MPGOOD ERROR LATCH IS ACTIVE. The <NUM> volt rail is OK. The <NUM> volt rail is OK.,False,False,,"[ALERT 102] 2005-12-30 00:17-00:22 UTC | score higher than 97.7% of validation windows
+  Where: 25 node(s), 59% on midplane R22-M1 | component DISCOVERY
+  What (largest contribution first):
+  - 23x ""Node card status no ALERTs are active. Clock Mode is Low. Clock Select is Midplane. Phy..."" [ERROR] - seen 15,812x during training
+  - 23x ""Can not get assembly information for node card"" [SEVERE] - seen 16,219x during training
+  - 2x ""Node card VPD check U0 node in processor card slot J1 do not match. VPD ecid found"" [INFO] - seen 5,278x during training
+  Volume: 79 lines in window",0.43044065314237345
+52644,0,Ido chip status changed: FF:F2:9F:<NUM>:BF:<NUM>:<NUM>:0D:<NUM>:E9:<NUM>:DE ip=<IP> v=<NUM> t=<NUM> status=M Sat Dec <NUM> <NUM>:<NUM>:<NUM> PST <NUM>,False,True,,"[ALERT 103] 2005-12-03 17:42-17:47 UTC | score higher than 97.7% of validation windows
+  Where: 42 node(s), 41% on midplane R65-M1 | component HARDWARE
+  What (largest contribution first):
+  - 1x ""Ido chip status changed FF F2 9F BF 0D E9 DE ip v t status M Sat Dec PST"" [INFO] - never seen during training
+  - 1x ""Ido chip status changed FF F2 9F D1 0D E9 2E DF ip v t status M Sat Dec PST"" [INFO] - never seen during training
+  - 1x ""Ido chip status changed FF F2 9F BC FA 0D E9 ip v t status M Sat Dec PST"" [INFO] - never seen during training
+  Volume: 79 lines in window",0.4292304372936099
+56368,0,Node card status: no ALERTs are active. Clock Mode is Low. Clock Select is Midplane. Phy JTAG Reset is asserted. ASIC JTAG Reset is asserted. Temperature Mask is not active. No temperature error. Temperature Limit Error Latch is clear. PGOOD IS NOT ASSERTED. PGOOD ERROR LATCH IS ACTIVE. MPGOOD IS NOT OK. MPGOOD ERROR LATCH IS ACTIVE. The <NUM> volt rail is OK. The <NUM> volt rail is OK.,False,False,,"[ALERT 104] 2005-12-16 16:02-16:07 UTC | score higher than 97.7% of validation windows
+  Where: 15 node(s), 100% on midplane R35-M1 | component DISCOVERY
+  What (largest contribution first):
+  - 15x ""Node card status no ALERTs are active. Clock Mode is Low. Clock Select is Midplane. Phy..."" [ERROR] - seen 15,812x during training
+  - 15x ""Can not get assembly information for node card"" [SEVERE] - seen 16,219x during training
+  - 15x ""Node card is not fully functional"" [WARNING] - seen 16,278x during training
+  Volume: 49 lines in window",0.42707542975102425
+53955,0,Node card status: no ALERTs are active. Clock Mode is Low. Clock Select is Midplane. Phy JTAG Reset is asserted. ASIC JTAG Reset is asserted. Temperature Mask is not active. No temperature error. Temperature Limit Error Latch is clear. PGOOD IS NOT ASSERTED. PGOOD ERROR LATCH IS ACTIVE. MPGOOD IS NOT OK. MPGOOD ERROR LATCH IS ACTIVE. The <NUM> volt rail is OK. The <NUM> volt rail is OK.,False,False,,"[ALERT 105] 2005-12-08 06:57-07:02 UTC | score higher than 97.7% of validation windows
+  Where: 15 node(s), 100% on midplane R62-M0 | component DISCOVERY
+  What (largest contribution first):
+  - 15x ""Node card status no ALERTs are active. Clock Mode is Low. Clock Select is Midplane. Phy..."" [ERROR] - seen 15,812x during training
+  - 15x ""Can not get assembly information for node card"" [SEVERE] - seen 16,219x during training
+  - 15x ""Node card is not fully functional"" [WARNING] - seen 16,278x during training
+  Volume: 49 lines in window",0.42707542975102425
+51474,1,mmcs_db_server has been started: ./mmcs_db_server --useDatabase BGL --dbproperties db.properties --iolog <PATH> --reconnect-blocks all --shutdown-timeout <NUM> --shutdown-timeout <NUM>,False,True,False,"[ALERT 106] 2005-11-29 16:12-16:17 UTC | score higher than 97.7% of validation windows
+  Where: 7 node(s), 37% on midplane R43-M0 | component KERNEL
+  What (largest contribution first):
+  - 1x ""mmcs db server has been started ./mmcs db server --use Database BGL --dbproperties db.p..."" [INFO] - never seen during training
+  - 1x ""idoproxydb has been started $Name V1R2M0 4 0 2 $ Input parameters -enableflush -loguser..."" [INFO] - never seen during training
+  - 1x ""ciodb has been restarted"" [INFO] - seen 72x during training
+  Volume: 23 lines in window",0.4248806337713866
+52641,0,Ido chip status changed: FF:F2:9F:<NUM>:EF:EE:<NUM>:0D:<NUM>:E9:<NUM>:<NUM> ip=<IP> v=<NUM> t=<NUM> status=M Sat Dec <NUM> <NUM>:<NUM>:<NUM> PST <NUM>,False,True,,"[ALERT 107] 2005-12-03 17:27-17:32 UTC | score higher than 97.7% of validation windows
+  Where: 46 node(s), 38% on midplane R10-M1 | component HARDWARE
+  What (largest contribution first):
+  - 1x ""Ido chip status changed FF F2 9F EF EE 0D E9 ip v t status M Sat Dec PST"" [INFO] - never seen during training
+  - 1x ""Ido chip status changed FF F2 9F F0 0D E9 0F AB ip v t status M Sat Dec PST"" [INFO] - never seen during training
+  - 1x ""Ido chip status changed FF F2 9F F0 0D E9 0F BF ip v t status M Sat Dec PST"" [INFO] - never seen during training
+  Volume: 68 lines in window",0.42287384878336964
+52622,1,General Purpose Registers:,False,True,True,"[ALERT 108] 2005-12-03 15:52-15:57 UTC | score higher than 97.7% of validation windows
+  Where: 128 node(s), 100% on midplane R47-M1 | component KERNEL
+  What (largest contribution first):
+  - 1x ""General Purpose Registers"" [FATAL] - never seen during training
+  - 2x ""floating pt ex mode enable"" [FATAL] - seen 12,852x during training
+  - 1x ""problem state sup usr"" [FATAL] - seen 6,447x during training
+  Volume: 281 lines in window",0.42225838730584875
+52956,1,mmcs_db_server has been started: ./mmcs_db_server --useDatabase BGL --dbproperties db.properties --iolog <PATH> --reconnect-blocks all --shutdown-timeout <NUM> --shutdown-timeout <NUM>,False,True,True,"[ALERT 109] 2005-12-04 19:42-19:47 UTC | score higher than 97.5% of validation windows
+  Where: 5 node(s), 25% on midplane R62-M0 | component KERNEL
+  What (largest contribution first):
+  - 1x ""mmcs db server has been started ./mmcs db server --use Database BGL --dbproperties db.p..."" [INFO] - never seen during training
+  - 1x ""idoproxydb has been started $Name V1R2M0 4 0 2 $ Input parameters -enableflush -loguser..."" [INFO] - never seen during training
+  - 1x ""BGLMaster has been started ./BGLMaster --consoleip --consoleport --configfile bglmaster..."" [INFO] - never seen during training
+  Volume: 8 lines in window",0.420540187168936
+52640,0,"PrepareForService shutting down Node card(mLctn(<NODE>), mCardSernum(<HEX>), mLp(FF:F2:9F:<NUM>:E1:AE:<NUM>:0D:<NUM>:E9:1E:<NUM>), mIp(<IP>), mType(<NUM>)) as part of Service Action <NUM>",False,True,,"[ALERT 110] 2005-12-03 17:22-17:27 UTC | score higher than 97.5% of validation windows
+  Where: 44 node(s), 39% on midplane R04-M1 | component HARDWARE
+  What (largest contribution first):
+  - 1x ""Prepare For Service shutting down Node card m Lctn m Card Sernum m Lp FF F2 9F E1 AE 0D..."" [WARNING] - never seen during training
+  - 1x ""Prepare For Service shutting down Node card m Lctn m Card Sernum m Lp FF F2 9F F0 0D E9..."" [WARNING] - never seen during training
+  - 1x ""Prepare For Service shutting down Node card m Lctn m Card Sernum m Lp FF F2 9F EC 0D E9..."" [WARNING] - never seen during training
+  Volume: 44 lines in window",0.41809083865763785
+52077,0,mmcs_db_server has been started: ./mmcs_db_server --useDatabase BGL --dbproperties db.properties --iolog <PATH> --reconnect-blocks all --shutdown-timeout <NUM>,False,True,,"[ALERT 111] 2005-12-01 18:27-18:32 UTC | score higher than 97.5% of validation windows
+  Where: 1 node(s) | component MMCS
+  What (largest contribution first):
+  - 1x ""mmcs db server has been started ./mmcs db server --use Database BGL --dbproperties db.p..."" [INFO] - never seen during training
+  - 1x ""idoproxydb has been started $Name V1R2M0 4 0 2 $ Input parameters -enableflush -loguser..."" [INFO] - never seen during training
+  - 1x ""ciodb has been restarted"" [INFO] - seen 72x during training
+  Volume: 3 lines in window",0.4165631169775492
+52947,1,mmcs_db_server has been started: ./mmcs_db_server --useDatabase BGL --dbproperties db.properties --iolog <PATH> --reconnect-blocks all --shutdown-timeout <NUM> --shutdown-timeout <NUM>,False,True,False,"[ALERT 112] 2005-12-04 18:57-19:02 UTC | score higher than 97.5% of validation windows
+  Where: 8 node(s), 14% on midplane R64-M0 | component KERNEL
+  What (largest contribution first):
+  - 1x ""mmcs db server has been started ./mmcs db server --use Database BGL --dbproperties db.p..."" [INFO] - never seen during training
+  - 1x ""idoproxydb has been started $Name V1R2M0 4 0 2 $ Input parameters -enableflush -loguser..."" [INFO] - never seen during training
+  - 1x ""ciodb has been restarted"" [INFO] - seen 72x during training
+  Volume: 11 lines in window",0.41340435760177474
+52643,0,"PrepareForService is being done on this Midplane (mLctn(<NODE>), mCardSernum(<HEX>), iWhichCardsToPwrOff(<NUM>)) by root",False,True,,"[ALERT 113] 2005-12-03 17:37-17:42 UTC | score higher than 97.5% of validation windows
+  Where: 46 node(s), 38% on midplane R45-M0 | component HARDWARE
+  What (largest contribution first):
+  - 3x ""Prepare For Service is being done on this Midplane m Lctn m Card Sernum i Which Cards T..."" [WARNING] - never seen during training
+  - 1x ""Prepare For Service shutting down Node card m Lctn m Card Sernum m Lp FF F2 9F D8 FE 0D..."" [WARNING] - never seen during training
+  - 1x ""Ido chip status changed FF F2 9F CB 0D E9 FE ip v t status M Sat Dec PST"" [INFO] - never seen during training
+  Volume: 89 lines in window",0.4132825751541875
+60210,0,"PrepareForService shutting down Node card(mLctn(<NODE>), mCardSernum(<HEX>), mLp(FF:F2:9F:<NUM>:BE:ED:<NUM>:0D:<NUM>:E9:<NUM>:<NUM>), mIp(<IP>), mType(<NUM>)) as part of Service Action <NUM>",False,True,,"[ALERT 114] 2005-12-30 00:12-00:17 UTC | score higher than 97.5% of validation windows
+  Where: 23 node(s), 92% on midplane R22-M1 | component HARDWARE
+  What (largest contribution first):
+  - 1x ""Prepare For Service shutting down Node card m Lctn m Card Sernum m Lp FF F2 9F BE ED 0D..."" [WARNING] - never seen during training
+  - 1x ""Prepare For Service shutting down Node card m Lctn m Card Sernum m Lp FF F2 9F BE 0D E9..."" [WARNING] - never seen during training
+  - 1x ""Prepare For Service shutting down Link card m Lctn m Card Sernum m Lp FF F2 9F 7D DB 0D..."" [WARNING] - never seen during training
+  Volume: 25 lines in window",0.40942824989903753
+51279,1,idoproxy communication failure: BGLERR_IDO_PKT_TIMEOUT connection lost to node<PATH> card,True,True,False,"[ALERT 115] 2005-11-28 23:57-00:02 UTC | score higher than 97.3% of validation windows
+  Where: 19 node(s), 94% on midplane R43-M1 | component HARDWARE
+  What (largest contribution first):
+  - 1x ""idoproxy communication failure BGLERR IDO PKT TIMEOUT connection lost to node card"" [FATAL] - never seen during training
+  - 1x ""Prepare For Service shutting down Node card m Lctn m Card Sernum m Lp FF F2 9F CD 0D E9..."" [WARNING] - never seen during training
+  - 1x ""Ido packet timeout"" [ERROR] - seen 4,184x during training
+  Volume: 19 lines in window",0.4023287455005196
+56367,0,Controlling BG/L rows [ <NUM> <NUM> <NUM> <NUM> <NUM> <NUM> <NUM> <NUM> ],False,False,,"[ALERT 116] 2005-12-16 15:57-16:02 UTC | score higher than 97.3% of validation windows
+  Where: 22 node(s), 100% on midplane R35-M1 | component HARDWARE
+  What (largest contribution first):
+  - 1x ""Controlling BG/L rows"" [INFO] - seen 29x during training
+  - 1x ""Starting System Controller"" [INFO] - seen 50x during training
+  - 1x ""Prepare For Service shutting down Node card m Lctn m Card Sernum m Lp FF F2 9F C7 0D E9..."" [WARNING] - never seen during training
+  Volume: 27 lines in window",0.39923593027409776
+52742,0,"PrepareForService shutting down Node card(mLctn(<NODE>), mCardSernum(<HEX>), mLp(FF:F2:9F:<NUM>:C7:DE:<NUM>:0D:<NUM>:E9:<NUM>:<NUM>), mIp(<IP>), mType(<NUM>)) as part of Service Action <NUM>",False,True,,"[ALERT 117] 2005-12-04 01:52-01:57 UTC | score higher than 97.3% of validation windows
+  Where: 66 node(s), 26% on midplane R06-M1 | component HARDWARE
+  What (largest contribution first):
+  - 1x ""Prepare For Service shutting down Node card m Lctn m Card Sernum m Lp FF F2 9F C7 DE 0D..."" [WARNING] - never seen during training
+  - 2x ""Prepare For Service is being done on this Midplane m Lctn m Card Sernum i Which Cards T..."" [WARNING] - never seen during training
+  - 1x ""Prepare For Service shutting down Node card m Lctn m Card Sernum m Lp FF F2 9F CE 0D E9..."" [WARNING] - never seen during training
+  Volume: 66 lines in window",0.39876962983636666
+49561,1,idoproxy communication failure: BGLERR_IDO_PKT_TIMEOUT connection lost to node<PATH> card,True,True,True,"[ALERT 118] 2005-11-23 00:47-00:52 UTC | score higher than 97.3% of validation windows
+  Where: 26 node(s), 100% on midplane R47-M1 | component HARDWARE
+  What (largest contribution first):
+  - 1x ""idoproxy communication failure BGLERR IDO PKT TIMEOUT connection lost to node card"" [FATAL] - never seen during training
+  - 1x ""Ido packet timeout"" [ERROR] - seen 4,184x during training
+  - 1x ""Prepare For Service shutting down Node card m Lctn m Card Sernum m Lp FF F2 9F BA 0D E9..."" [WARNING] - never seen during training
+  Volume: 27 lines in window",0.39837384084540634
+54203,0,"PrepareForService shutting down Node card(mLctn(<NODE>), mCardSernum(<HEX>), mLp(FF:F2:9F:<NUM>:C2:<NUM>:<NUM>:0D:<NUM>:E9:3D:DF), mIp(<IP>), mType(<NUM>)) as part of Service Action <NUM>",False,True,,"[ALERT 119] 2005-12-09 03:37-03:42 UTC | score higher than 97.2% of validation windows
+  Where: 14 node(s), 100% on midplane R63-M0 | component HARDWARE
+  What (largest contribution first):
+  - 1x ""Prepare For Service shutting down Node card m Lctn m Card Sernum m Lp FF F2 9F C2 0D E9..."" [WARNING] - never seen during training
+  - 1x ""Controlling BG/L rows"" [INFO] - seen 29x during training
+  - 1x ""Starting System Controller"" [INFO] - seen 50x during training
+  Volume: 16 lines in window",0.39640744009563983
+52952,0,Controlling BG/L rows [ <NUM> <NUM> <NUM> <NUM> <NUM> <NUM> <NUM> <NUM> ],False,False,,"[ALERT 120] 2005-12-04 19:22-19:27 UTC | score higher than 97.1% of validation windows
+  Where: 18 node(s), 100% on midplane R71-M0 | component HARDWARE
+  What (largest contribution first):
+  - 1x ""Controlling BG/L rows"" [INFO] - seen 29x during training
+  - 1x ""Starting System Controller"" [INFO] - seen 50x during training
+  - 1x ""Prepare For Service shutting down Node card m Lctn m Card Sernum m Lp FF F2 9F D9 0D E9..."" [WARNING] - never seen during training
+  Volume: 20 lines in window",0.39067412133284574
+53952,0,Controlling BG/L rows [ <NUM> <NUM> <NUM> <NUM> <NUM> <NUM> <NUM> <NUM> ],False,False,,"[ALERT 121] 2005-12-08 06:42-06:47 UTC | score higher than 97.1% of validation windows
+  Where: 18 node(s), 100% on midplane R62-M0 | component HARDWARE
+  What (largest contribution first):
+  - 1x ""Controlling BG/L rows"" [INFO] - seen 29x during training
+  - 1x ""Starting System Controller"" [INFO] - seen 50x during training
+  - 1x ""Prepare For Service shutting down Node card m Lctn m Card Sernum m Lp FF F2 9F DC AE 0D..."" [WARNING] - never seen during training
+  Volume: 20 lines in window",0.38985915331380483
+52429,0,Controlling BG/L rows [ <NUM> <NUM> <NUM> <NUM> <NUM> <NUM> <NUM> <NUM> ],False,False,,"[ALERT 122] 2005-12-02 23:47-23:52 UTC | score higher than 97.1% of validation windows
+  Where: 18 node(s), 100% on midplane R01-M1 | component HARDWARE
+  What (largest contribution first):
+  - 1x ""Controlling BG/L rows"" [INFO] - seen 29x during training
+  - 1x ""Starting System Controller"" [INFO] - seen 50x during training
+  - 1x ""Prepare For Service is being done on this Midplane m Lctn m Card Sernum i Which Cards T..."" [WARNING] - never seen during training
+  Volume: 20 lines in window",0.3890088674159078
+49562,1,"ciod: Error reading message prefix on CioStream socket to <IP>, Link has been severed",True,True,True,"[ALERT 123] 2005-11-23 00:52-00:57 UTC | score higher than 97.1% of validation windows
+  Where: 8 node(s), 100% on midplane R05-M1 | component DISCOVERY
+  What (largest contribution first):
+  - 7x ""ciod Error reading message prefix on Cio Stream socket to Link has been severed"" [FATAL] - never seen during training
+  - 1x ""Ido chip status changed FF F2 9F DD 0D E9 7D ip v t status M Tue Nov PST"" [INFO] - never seen during training
+  - 1x ""Ido chip status changed FF F2 9F BA 0D E9 7A ip v t status M Tue Nov PST"" [INFO] - never seen during training
+  Volume: 23 lines in window",0.38853116552204364
+51566,0,"PrepareForService shutting down Node card(mLctn(<NODE>), mCardSernum(<HEX>), mLp(FF:F2:9F:<NUM>:BD:<NUM>:<NUM>:0D:<NUM>:E9:<NUM>:<NUM>), mIp(<IP>), mType(<NUM>)) as part of Service Action <NUM>",False,True,,"[ALERT 124] 2005-11-29 23:52-23:57 UTC | score higher than 97.1% of validation windows
+  Where: 17 node(s), 100% on midplane R67-M1 | component HARDWARE
+  What (largest contribution first):
+  - 1x ""Prepare For Service shutting down Node card m Lctn m Card Sernum m Lp FF F2 9F BD 0D E9..."" [WARNING] - never seen during training
+  - 1x ""Prepare For Service shutting down Node card m Lctn m Card Sernum m Lp FF F2 9F C6 AB 0D..."" [WARNING] - never seen during training
+  - 1x ""Prepare For Service shutting down Node card m Lctn m Card Sernum m Lp FF F2 9F C5 0D E9..."" [WARNING] - never seen during training
+  Volume: 17 lines in window",0.3859028021190382
+59281,0,Controlling BG/L rows [ <NUM> <NUM> <NUM> <NUM> <NUM> <NUM> <NUM> <NUM> ],False,False,,"[ALERT 125] 2005-12-26 18:47-18:52 UTC | score higher than 97.1% of validation windows
+  Where: 18 node(s), 100% on midplane R30-M0 | component HARDWARE
+  What (largest contribution first):
+  - 1x ""Controlling BG/L rows"" [INFO] - seen 29x during training
+  - 1x ""Starting System Controller"" [INFO] - seen 50x during training
+  - 1x ""Prepare For Service is being done on this Midplane m Lctn m Card Sernum i Which Cards T..."" [WARNING] - never seen during training
+  Volume: 20 lines in window",0.38520090818483643
+52024,0,"PrepareForService shutting down Node card(mLctn(<NODE>), mCardSernum(<HEX>), mLp(FF:F2:9F:<NUM>:E5:<NUM>:<NUM>:0D:<NUM>:E9:1A:ED), mIp(<IP>), mType(<NUM>)) as part of Service Action <NUM>",False,True,,"[ALERT 126] 2005-12-01 14:02-14:07 UTC | score higher than 97.1% of validation windows
+  Where: 17 node(s), 100% on midplane R00-M0 | component HARDWARE
+  What (largest contribution first):
+  - 1x ""Prepare For Service shutting down Node card m Lctn m Card Sernum m Lp FF F2 9F E5 0D E9..."" [WARNING] - never seen during training
+  - 1x ""Prepare For Service shutting down Node card m Lctn m Card Sernum m Lp FF F2 9F E3 0D E9..."" [WARNING] - never seen during training
+  - 1x ""End Service Action is restarting the Node cards in Midplane as part of Service Action"" [WARNING] - never seen during training
+  Volume: 19 lines in window",0.384491199945376
+52645,0,Ido chip status changed: FF:F2:9F:<NUM>:DA:<NUM>:<NUM>:0D:<NUM>:E9:<NUM>:BD ip=<IP> v=<NUM> t=<NUM> status=M Sat Dec <NUM> <NUM>:<NUM>:<NUM> PST <NUM>,False,True,,"[ALERT 127] 2005-12-03 17:47-17:52 UTC | score higher than 97.1% of validation windows
+  Where: 1 node(s) | component DISCOVERY
+  What (largest contribution first):
+  - 1x ""Ido chip status changed FF F2 9F DA 0D E9 BD ip v t status M Sat Dec PST"" [INFO] - never seen during training
+  - 1x ""Ido chip status changed FF F2 9F D1 FC 0D E9 2E ip v t status M Sat Dec PST"" [INFO] - never seen during training
+  - 1x ""Ido chip status changed FF F2 9F D8 FE 0D E9 ip v t status M Sat Dec PST"" [INFO] - never seen during training
+  Volume: 44 lines in window",0.3839694226526428
+50342,0,mmcs_db_server has been started: ./mmcs_db_server --useDatabase BGL --dbproperties db.properties --iolog <PATH> --reconnect-blocks all --shutdown-timeout <NUM> --shutdown-timeout <NUM>,False,True,,"[ALERT 128] 2005-11-25 17:52-17:57 UTC | score higher than 97.1% of validation windows
+  Where: 300 node(s), 3% on midplane R02-M1 | component KERNEL
+  What (largest contribution first):
+  - 1x ""mmcs db server has been started ./mmcs db server --use Database BGL --dbproperties db.p..."" [INFO] - never seen during training
+  - 1x ""BGLMaster has been started ./BGLMaster --consoleip --consoleport --configfile bglmaster..."" [INFO] - never seen during training
+  - 1x ""idoproxydb has been started $Name V1R2M0 4 0 2 $ Input parameters -enableflush -loguser..."" [INFO] - never seen during training
+  Volume: 303 lines in window",0.38251138864836526
+52444,0,"PrepareForService shutting down Link card(mLctn(<NODE>), mCardSernum(<HEX>), mLp(FF:F2:9F:<NUM>:7E:<NUM>:<NUM>:0D:<NUM>:EA:<NUM>:FC), mIp(<IP>), mType(<NUM>)) as part of Service Action <NUM>",False,True,,"[ALERT 129] 2005-12-03 01:02-01:07 UTC | score higher than 97.1% of validation windows
+  Where: 12 node(s), 100% on midplane R01-M0 | component HARDWARE
+  What (largest contribution first):
+  - 1x ""Prepare For Service shutting down Link card m Lctn m Card Sernum m Lp FF F2 9F 7E 0D EA..."" [WARNING] - never seen during training
+  - 1x ""Prepare For Service is being done on this rack R0 by root"" [WARNING] - seen 9x during training
+  - 1x ""Prepare For Service shutting down Link card m Lctn m Card Sernum m Lp FF F2 9F 7E 0D EA..."" [WARNING] - never seen during training
+  Volume: 12 lines in window",0.3821623714991126
+51284,0,"PrepareForService shutting down Node card(mLctn(<NODE>), mCardSernum(<HEX>), mLp(FF:F2:9F:<NUM>:CD:<NUM>:<NUM>:0D:<NUM>:E9:<NUM>:CF), mIp(<IP>), mType(<NUM>)) as part of Service Action <NUM>",False,True,,"[ALERT 130] 2005-11-29 00:22-00:27 UTC | score higher than 97.1% of validation windows
+  Where: 18 node(s), 100% on midplane R43-M1 | component MMCS
+  What (largest contribution first):
+  - 1x ""Prepare For Service shutting down Node card m Lctn m Card Sernum m Lp FF F2 9F CD 0D E9..."" [WARNING] - never seen during training
+  - 1x ""Prepare For Service is being done on this Midplane m Lctn m Card Sernum i Which Cards T..."" [WARNING] - never seen during training
+  - 1x ""Prepare For Service shutting down Link card m Lctn m Card Sernum m Lp FF F2 9F 7F CF 0D..."" [WARNING] - never seen during training
+  Volume: 65 lines in window",0.381684183875048
+52445,0,"PrepareForService shutting down Node card(mLctn(<NODE>), mCardSernum(<HEX>), mLp(FF:F2:9F:<NUM>:E1:EF:<NUM>:0D:<NUM>:E9:1E:<NUM>), mIp(<IP>), mType(<NUM>)) as part of Service Action <NUM>",False,True,,"[ALERT 131] 2005-12-03 01:07-01:12 UTC | score higher than 97.1% of validation windows
+  Where: 14 node(s), 71% on midplane R01-M0 | component HARDWARE
+  What (largest contribution first):
+  - 1x ""Prepare For Service shutting down Node card m Lctn m Card Sernum m Lp FF F2 9F E1 EF 0D..."" [WARNING] - never seen during training
+  - 1x ""Prepare For Service shutting down Node card m Lctn m Card Sernum m Lp FF F2 9F E8 AB 0D..."" [WARNING] - never seen during training
+  - 1x ""Prepare For Service shutting down Node card m Lctn m Card Sernum m Lp FF F2 9F EC CD 0D..."" [WARNING] - never seen during training
+  Volume: 14 lines in window",0.38133144398223223
+59814,1,"ciod: Error reading message prefix on CioStream socket to <IP>, Link has been severed",True,True,True,"[ALERT 132] 2005-12-28 15:12-15:17 UTC | score higher than 97.1% of validation windows
+  Where: 164 node(s), 30% on midplane R10-M0 | component APP
+  What (largest contribution first):
+  - 139x ""ciod Error reading message prefix on Cio Stream socket to Link has been severed"" [FATAL] - never seen during training
+  - 1x ""rts panic! - stopping execution"" [FATAL] - seen 3,889x during training
+  - 1x ""enable non-IEEE mode"" [FATAL] - never seen during training
+  Volume: 257 lines in window",0.38048775273652435
+51281,0,EndServiceAction is restarting the Node cards in Midplane <NODE> as part of Service Action <NUM>,False,True,,"[ALERT 133] 2005-11-29 00:07-00:12 UTC | score higher than 97.1% of validation windows
+  Where: 2 node(s), 100% on midplane R43-M1 | component DISCOVERY
+  What (largest contribution first):
+  - 1x ""End Service Action is restarting the Node cards in Midplane as part of Service Action"" [WARNING] - never seen during training
+  - 1x ""Ido chip status changed FF F2 9F CD 0D E9 CF ip v t status M Mon Nov PST"" [INFO] - never seen during training
+  - 1x ""End Service Action performed upon by root"" [WARNING] - seen 99x during training
+  Volume: 17 lines in window",0.3799469243476109
+51539,0,mmcs_db_server has been started: ./mmcs_db_server --useDatabase BGL --dbproperties db.properties --iolog <PATH> --reconnect-blocks all --shutdown-timeout <NUM> --shutdown-timeout <NUM>,False,True,,"[ALERT 134] 2005-11-29 21:37-21:42 UTC | score higher than 97.1% of validation windows
+  Where: 671 node(s), 1% on midplane R62-M1 | component KERNEL
+  What (largest contribution first):
+  - 1x ""mmcs db server has been started ./mmcs db server --use Database BGL --dbproperties db.p..."" [INFO] - never seen during training
+  - 1x ""BGLMaster has been started ./BGLMaster --consoleip --consoleport --configfile bglmaster..."" [INFO] - never seen during training
+  - 1x ""idoproxydb has been started $Name V1R2M0 4 0 2 $ Input parameters -enableflush -loguser..."" [INFO] - never seen during training
+  Volume: 674 lines in window",0.3796052710424935
+50221,0,mmcs_db_server has been started: ./mmcs_db_server --useDatabase BGL --dbproperties db.properties --iolog <PATH> --reconnect-blocks all --shutdown-timeout <NUM> --shutdown-timeout <NUM>,False,True,,"[ALERT 135] 2005-11-25 07:47-07:52 UTC | score higher than 97.1% of validation windows
+  Where: 838 node(s), 1% on midplane R30-M0 | component KERNEL
+  What (largest contribution first):
+  - 1x ""mmcs db server has been started ./mmcs db server --use Database BGL --dbproperties db.p..."" [INFO] - never seen during training
+  - 1x ""idoproxydb has been started $Name V1R2M0 4 0 2 $ Input parameters -enableflush -loguser..."" [INFO] - never seen during training
+  - 1x ""BGLMaster has been started ./BGLMaster --consoleip --consoleport --configfile bglmaster..."" [INFO] - never seen during training
+  Volume: 841 lines in window",0.3796052710424935
+52081,0,mmcs_db_server has been started: ./mmcs_db_server --useDatabase BGL --dbproperties db.properties --iolog <PATH> --reconnect-blocks all --shutdown-timeout <NUM>,False,True,,"[ALERT 136] 2005-12-01 18:47-18:52 UTC | score higher than 97.0% of validation windows
+  Where: 1 node(s) | component MMCS
+  What (largest contribution first):
+  - 1x ""mmcs db server has been started ./mmcs db server --use Database BGL --dbproperties db.p..."" [INFO] - never seen during training
+  Volume: 1 lines in window",0.37833883568699433
+52076,0,mmcs_db_server has been started: ./mmcs_db_server --useDatabase BGL --dbproperties db.properties --iolog <PATH> --reconnect-blocks all --shutdown-timeout <NUM>,False,True,,"[ALERT 137] 2005-12-01 18:22-18:27 UTC | score higher than 97.0% of validation windows
+  Where: 1 node(s) | component MMCS
+  What (largest contribution first):
+  - 1x ""mmcs db server has been started ./mmcs db server --use Database BGL --dbproperties db.p..."" [INFO] - never seen during training
+  Volume: 1 lines in window",0.37833883568699433
+52743,0,Ido chip status changed: FF:F2:9F:<NUM>:E6:FE:<NUM>:0D:<NUM>:E9:<NUM>:<NUM> ip=<IP> v=<NUM> t=<NUM> status=M Sat Dec <NUM> <NUM>:<NUM>:<NUM> PST <NUM>,False,True,,"[ALERT 138] 2005-12-04 01:57-02:02 UTC | score higher than 97.0% of validation windows
+  Where: 1 node(s) | component DISCOVERY
+  What (largest contribution first):
+  - 1x ""Ido chip status changed FF F2 9F E6 FE 0D E9 ip v t status M Sat Dec PST"" [INFO] - never seen during training
+  - 1x ""Ido chip status changed FF F2 9F E7 FA 0D E9 ip v t status M Sat Dec PST"" [INFO] - never seen during training
+  - 1x ""Ido chip status changed FF F2 9F E6 0D E9 EC ip v t status M Sat Dec PST"" [INFO] - never seen during training
+  Volume: 64 lines in window",0.37797121187577115
+60208,0,"PrepareForService shutting down Node card(mLctn(<NODE>), mCardSernum(<HEX>), mLp(FF:F2:9F:<NUM>:C7:ED:<NUM>:0D:<NUM>:E9:<NUM>:<NUM>), mIp(<IP>), mType(<NUM>)) as part of Service Action <NUM>",False,True,,"[ALERT 139] 2005-12-30 00:02-00:07 UTC | score higher than 97.0% of validation windows
+  Where: 17 node(s), 94% on midplane R22-M0 | component HARDWARE
+  What (largest contribution first):
+  - 1x ""Prepare For Service shutting down Node card m Lctn m Card Sernum m Lp FF F2 9F C7 ED 0D..."" [WARNING] - never seen during training
+  - 1x ""Prepare For Service shutting down Node card m Lctn m Card Sernum m Lp FF F2 9F C0 0D E9..."" [WARNING] - never seen during training
+  - 1x ""Prepare For Service is being done on this Midplane m Lctn m Card Sernum i Which Cards T..."" [WARNING] - never seen during training
+  Volume: 17 lines in window",0.3757469411849373
+49538,1,enable non-IEEE mode.....................<NUM>,False,True,True,"[ALERT 140] 2005-11-22 22:52-22:57 UTC | score higher than 96.9% of validation windows
+  Where: 449 node(s), 17% on midplane R02-M0 | component KERNEL
+  What (largest contribution first):
+  - 1x ""enable non-IEEE mode"" [FATAL] - never seen during training
+  - 1x ""Floating Point Registers"" [FATAL] - never seen during training
+  Volume: 532 lines in window",0.37563561240376064
+53507,0,"PrepareForService shutting down Node card(mLctn(<NODE>), mCardSernum(<HEX>), mLp(FF:F2:9F:<NUM>:C6:<NUM>:<NUM>:0D:<NUM>:E9:<NUM>:AE), mIp(<IP>), mType(<NUM>)) as part of Service Action <NUM>",False,True,,"[ALERT 141] 2005-12-06 17:37-17:42 UTC | score higher than 96.9% of validation windows
+  Where: 34 node(s), 50% on midplane R12-M0 | component HARDWARE
+  What (largest contribution first):
+  - 1x ""Prepare For Service shutting down Node card m Lctn m Card Sernum m Lp FF F2 9F C6 0D E9..."" [WARNING] - never seen during training
+  - 2x ""Prepare For Service is being done on this Midplane m Lctn m Card Sernum i Which Cards T..."" [WARNING] - never seen during training
+  - 1x ""Prepare For Service shutting down Node card m Lctn m Card Sernum m Lp FF F2 9F CD 0D E9..."" [WARNING] - never seen during training
+  Volume: 34 lines in window",0.3754250053141119
+54183,1,"ciod: Error reading message prefix on CioStream socket to <IP>, Link has been severed",True,True,True,"[ALERT 142] 2005-12-09 01:57-02:02 UTC | score higher than 96.9% of validation windows
+  Where: 10 node(s), 100% on midplane R63-M0 | component APP
+  What (largest contribution first):
+  - 8x ""ciod Error reading message prefix on Cio Stream socket to Link has been severed"" [FATAL] - never seen during training
+  - 2x ""rts panic! - stopping execution"" [FATAL] - seen 3,889x during training
+  - 1x ""external input interrupt unit bit torus sender z- retransmission error was corrected"" [FATAL] - seen 288x during training
+  Volume: 12 lines in window",0.3750112254620241
+51181,0,"PrepareForService shutting down Node card(mLctn(<NODE>), mCardSernum(<HEX>), mLp(FF:F2:9F:<NUM>:E6:FE:<NUM>:0D:<NUM>:E9:<NUM>:<NUM>), mIp(<IP>), mType(<NUM>)) as part of Service Action <NUM>",False,True,,"[ALERT 143] 2005-11-28 15:47-15:52 UTC | score higher than 96.8% of validation windows
+  Where: 14 node(s), 100% on midplane R03-M1 | component HARDWARE
+  What (largest contribution first):
+  - 1x ""Prepare For Service shutting down Node card m Lctn m Card Sernum m Lp FF F2 9F E6 FE 0D..."" [WARNING] - never seen during training
+  - 1x ""Prepare For Service shutting down Node card m Lctn m Card Sernum m Lp FF F2 9F E7 FA 0D..."" [WARNING] - never seen during training
+  - 1x ""Prepare For Service is being done on this Midplane m Lctn m Card Sernum i Which Cards T..."" [WARNING] - never seen during training
+  Volume: 14 lines in window",0.3716333204926944
+52446,0,Ido chip status changed: FF:F2:9F:<NUM>:7E:<NUM>:<NUM>:0D:<NUM>:EA:<NUM>:FC ip=<IP> v=<NUM> t=<NUM> status=M Fri Dec <NUM> <NUM>:<NUM>:<NUM> PST <NUM>,False,True,,"[ALERT 144] 2005-12-03 01:12-01:17 UTC | score higher than 96.8% of validation windows
+  Where: 1 node(s) | component DISCOVERY
+  What (largest contribution first):
+  - 1x ""Ido chip status changed FF F2 9F 7E 0D EA FC ip v t status M Fri Dec PST"" [INFO] - never seen during training
+  - 1x ""Ido chip status changed FF F2 9F E8 AB 0D E9 ip v t status M Fri Dec PST"" [INFO] - never seen during training
+  - 1x ""Ido chip status changed FF F2 9F E1 EF 0D E9 1E ip v t status M Fri Dec PST"" [INFO] - never seen during training
+  Volume: 23 lines in window",0.3716190341310239
+51286,1,idoproxydb has been started: $Name: V1R2M0_4<NUM>0_2<NUM> $ Input parameters: -enableflush -loguserinfo db.properties BlueGene1,False,True,True,"[ALERT 145] 2005-11-29 00:32-00:37 UTC | score higher than 96.8% of validation windows
+  Where: 8 node(s), 14% on midplane R66-M1 | component MMCS
+  What (largest contribution first):
+  - 1x ""idoproxydb has been started $Name V1R2M0 4 0 2 $ Input parameters -enableflush -loguser..."" [INFO] - never seen during training
+  - 16x ""Ido packet timeout"" [ERROR] - seen 4,184x during training
+  - 7x ""idoproxy communication failure socket closed"" [FATAL] - never seen during training
+  Volume: 24 lines in window",0.36985739925001654
+49597,1,"ciod: Error reading message prefix on CioStream socket to <IP>, Link has been severed",True,True,True,"[ALERT 146] 2005-11-23 03:47-03:52 UTC | score higher than 96.8% of validation windows
+  Where: 8 node(s), 100% on midplane R63-M0 | component KERNEL
+  What (largest contribution first):
+  - 6x ""ciod Error reading message prefix on Cio Stream socket to Link has been severed"" [FATAL] - never seen during training
+  - 2x ""ciod In packet from node message code is not or softheader"" [INFO] - seen 86x during training
+  - 6x ""ciod poll Control Descriptors Detected the debugger died"" [INFO] - seen 609x during training
+  Volume: 14 lines in window",0.36914019079041915
+49869,1,"ciod: Error reading message prefix on CioStream socket to <IP>, Link has been severed",True,True,True,"[ALERT 147] 2005-11-24 02:27-02:32 UTC | score higher than 96.8% of validation windows
+  Where: 8 node(s), 100% on midplane R62-M0 | component KERNEL
+  What (largest contribution first):
+  - 6x ""ciod Error reading message prefix on Cio Stream socket to Link has been severed"" [FATAL] - never seen during training
+  - 6x ""ciod poll Control Descriptors Detected the debugger died"" [INFO] - seen 609x during training
+  - 3x ""ciod In packet from node message code is not or softheader"" [INFO] - seen 86x during training
+  Volume: 15 lines in window",0.3690574195724348
+53452,0,"PrepareForService shutting down Node card(mLctn(<NODE>), mCardSernum(<HEX>), mLp(FF:F2:9F:<NUM>:CC:E3:<NUM>:0D:<NUM>:E9:<NUM>:1C), mIp(<IP>), mType(<NUM>)) as part of Service Action <NUM>",False,True,,"[ALERT 148] 2005-12-06 13:02-13:07 UTC | score higher than 96.8% of validation windows
+  Where: 3 node(s), 100% on midplane R52-M1 | component CMCS
+  What (largest contribution first):
+  - 1x ""Prepare For Service shutting down Node card m Lctn m Card Sernum m Lp FF F2 9F CC E3 0D..."" [WARNING] - never seen during training
+  - 1x ""Starting System Controller"" [INFO] - seen 50x during training
+  - 1x ""Controlling BG/L rows"" [INFO] - seen 29x during training
+  Volume: 5 lines in window",0.3687596267960244
+49612,1,"ciod: Error reading message prefix on CioStream socket to <IP>, Link has been severed",True,True,True,"[ALERT 149] 2005-11-23 05:02-05:07 UTC | score higher than 96.8% of validation windows
+  Where: 8 node(s), 100% on midplane R62-M0 | component KERNEL
+  What (largest contribution first):
+  - 7x ""ciod Error reading message prefix on Cio Stream socket to Link has been severed"" [FATAL] - never seen during training
+  - 7x ""ciod poll Control Descriptors Detected the debugger died"" [INFO] - seen 609x during training
+  - 1x ""ciod In packet from node message code is not or softheader"" [INFO] - seen 86x during training
+  Volume: 15 lines in window",0.3679020484847785
+49606,1,"ciod: Error reading message prefix on CioStream socket to <IP>, Link has been severed",True,True,True,"[ALERT 150] 2005-11-23 04:32-04:37 UTC | score higher than 96.8% of validation windows
+  Where: 8 node(s), 100% on midplane R63-M0 | component KERNEL
+  What (largest contribution first):
+  - 8x ""ciod Error reading message prefix on Cio Stream socket to Link has been severed"" [FATAL] - never seen during training
+  - 8x ""ciod poll Control Descriptors Detected the debugger died"" [INFO] - seen 609x during training
+  - 1x ""ciod In packet from node message code is not or softheader"" [INFO] - seen 86x during training
+  Volume: 17 lines in window",0.3679020484847785
+49593,1,"ciod: Error reading message prefix on CioStream socket to <IP>, Link has been severed",True,True,True,"[ALERT 151] 2005-11-23 03:27-03:32 UTC | score higher than 96.8% of validation windows
+  Where: 8 node(s), 100% on midplane R62-M0 | component KERNEL
+  What (largest contribution first):
+  - 7x ""ciod Error reading message prefix on Cio Stream socket to Link has been severed"" [FATAL] - never seen during training
+  - 7x ""ciod poll Control Descriptors Detected the debugger died"" [INFO] - seen 609x during training
+  - 1x ""ciod In packet from node message code is not or softheader"" [INFO] - seen 86x during training
+  Volume: 15 lines in window",0.3679020484847785
+51860,0,"PrepareForService shutting down Node card(mLctn(<NODE>), mCardSernum(<HEX>), mLp(FF:F2:9F:<NUM>:C7:ED:<NUM>:0D:<NUM>:E9:<NUM>:<NUM>), mIp(<IP>), mType(<NUM>)) as part of Service Action <NUM>",False,True,,"[ALERT 152] 2005-12-01 00:22-00:27 UTC | score higher than 96.7% of validation windows
+  Where: 6 node(s), 100% on midplane R22-M0 | component HARDWARE
+  What (largest contribution first):
+  - 1x ""Prepare For Service shutting down Node card m Lctn m Card Sernum m Lp FF F2 9F C7 ED 0D..."" [WARNING] - never seen during training
+  - 1x ""Prepare For Service shutting down Node card m Lctn m Card Sernum m Lp FF F2 9F CF 4B 0D..."" [WARNING] - never seen during training
+  - 1x ""Prepare For Service shutting down Node card m Lctn m Card Sernum m Lp FF F2 9F CB 2E 0D..."" [WARNING] - never seen during training
+  Volume: 6 lines in window",0.3670789031727001
+53462,0,EndServiceAction <NUM> performed upon <NODE> by root,False,False,,"[ALERT 153] 2005-12-06 13:52-13:57 UTC | score higher than 96.7% of validation windows
+  Where: 7 node(s), 100% on midplane R12-M0 | component HARDWARE
+  What (largest contribution first):
+  - 1x ""End Service Action performed upon by root"" [WARNING] - seen 99x during training
+  - 1x ""End Service Action is restarting the Node cards in Midplane as part of Service Action"" [WARNING] - never seen during training
+  - 1x ""Prepare For Service shutting down Node card m Lctn m Card Sernum m Lp FF F2 9F E2 0D E9..."" [WARNING] - never seen during training
+  Volume: 8 lines in window",0.3669164924724341
+51218,1,"ciod: Error reading message prefix on CioStream socket to <IP>, Link has been severed",True,True,False,"[ALERT 154] 2005-11-28 18:52-18:57 UTC | score higher than 96.6% of validation windows
+  Where: 522 node(s), 4% on midplane R72-M1 | component APP
+  What (largest contribution first):
+  - 504x ""ciod Error reading message prefix on Cio Stream socket to Link has been severed"" [FATAL] - never seen during training
+  - 256x ""ciod Received signal code errno address"" [INFO] - never seen during training
+  - 1x ""job timed out. Block freed"" [Kill] - seen 224x during training
+  Volume: 856 lines in window",0.3643799259751182
+49837,1,"ciod: Error reading message prefix on CioStream socket to <IP>, Link has been severed",True,True,True,"[ALERT 155] 2005-11-23 23:47-23:52 UTC | score higher than 96.6% of validation windows
+  Where: 155 node(s), 9% on midplane R67-M0 | component KERNEL
+  What (largest contribution first):
+  - 31x ""ciod Error reading message prefix on Cio Stream socket to Link has been severed"" [FATAL] - never seen during training
+  - 153x ""ciod poll Control Descriptors Detected the debugger died"" [INFO] - seen 609x during training
+  - 1x ""ciod In packet from node message code is not or softheader"" [INFO] - seen 86x during training
+  Volume: 186 lines in window",0.36430838167658275
+52065,1,"ciod: Error reading message prefix on CioStream socket to <IP>, Link has been severed",True,True,True,"[ALERT 156] 2005-12-01 17:27-17:32 UTC | score higher than 96.5% of validation windows
+  Where: 519 node(s), 100% on midplane R00-M0 | component KERNEL
+  What (largest contribution first):
+  - 8x ""ciod Error reading message prefix on Cio Stream socket to Link has been severed"" [FATAL] - never seen during training
+  - 8x ""ciod poll Control Descriptors Detected the debugger died"" [INFO] - seen 609x during training
+  - 511x ""total interrupts. critical input interrupts. microseconds total spent on critical input..."" [INFO] - never seen during training
+  Volume: 1039 lines in window",0.3639468787179495
+51859,0,"PrepareForService shutting down Node card(mLctn(<NODE>), mCardSernum(<HEX>), mLp(FF:F2:9F:<NUM>:C0:<NUM>:<NUM>:0D:<NUM>:E9:3F:BF), mIp(<IP>), mType(<NUM>)) as part of Service Action <NUM>",False,True,,"[ALERT 157] 2005-12-01 00:17-00:22 UTC | score higher than 96.5% of validation windows
+  Where: 11 node(s), 100% on midplane R22-M0 | component HARDWARE
+  What (largest contribution first):
+  - 1x ""Prepare For Service shutting down Node card m Lctn m Card Sernum m Lp FF F2 9F C0 0D E9..."" [WARNING] - never seen during training
+  - 1x ""Prepare For Service is being done on this Midplane m Lctn m Card Sernum i Which Cards T..."" [WARNING] - never seen during training
+  - 1x ""Prepare For Service shutting down Node card m Lctn m Card Sernum m Lp FF F2 9F CE 3B 0D..."" [WARNING] - never seen during training
+  Volume: 11 lines in window",0.3637423926447574
+53605,0,"PrepareForService shutting down Node card(mLctn(<NODE>), mCardSernum(<HEX>), mLp(FF:F2:9F:<NUM>:E5:<NUM>:<NUM>:0D:<NUM>:E9:1A:FC), mIp(<IP>), mType(<NUM>)) as part of Service Action <NUM>",False,True,,"[ALERT 158] 2005-12-07 01:47-01:52 UTC | score higher than 96.5% of validation windows
+  Where: 13 node(s), 100% on midplane R03-M0 | component HARDWARE
+  What (largest contribution first):
+  - 1x ""Prepare For Service shutting down Node card m Lctn m Card Sernum m Lp FF F2 9F E5 0D E9..."" [WARNING] - never seen during training
+  - 1x ""Prepare For Service is being done on this Midplane m Lctn m Card Sernum i Which Cards T..."" [WARNING] - never seen during training
+  Volume: 13 lines in window",0.36361643996419213
+51538,1,"ciod: Error reading message prefix on CioStream socket to <IP>, Link has been severed",True,True,False,"[ALERT 159] 2005-11-29 21:32-21:37 UTC | score higher than 96.5% of validation windows
+  Where: 432 node(s), 4% on midplane R20-M1 | component KERNEL
+  What (largest contribution first):
+  - 384x ""ciod Error reading message prefix on Cio Stream socket to Link has been severed"" [FATAL] - never seen during training
+  - 231x ""ciod Received signal code errno address"" [INFO] - never seen during training
+  - 1x ""job timed out. Block freed"" [Kill] - seen 224x during training
+  Volume: 1052 lines in window",0.36339216746118086
+51182,0,"PrepareForService shutting down Node card(mLctn(<NODE>), mCardSernum(<HEX>), mLp(FF:F2:9F:<NUM>:E6:EF:<NUM>:0D:<NUM>:E9:<NUM>:<NUM>), mIp(<IP>), mType(<NUM>)) as part of Service Action <NUM>",False,True,,"[ALERT 160] 2005-11-28 15:52-15:57 UTC | score higher than 96.5% of validation windows
+  Where: 3 node(s), 100% on midplane R03-M1 | component HARDWARE
+  What (largest contribution first):
+  - 1x ""Prepare For Service shutting down Node card m Lctn m Card Sernum m Lp FF F2 9F E6 EF 0D..."" [WARNING] - never seen during training
+  - 1x ""Prepare For Service shutting down Node card m Lctn m Card Sernum m Lp FF F2 9F E8 DD 0D..."" [WARNING] - never seen during training
+  - 1x ""Prepare For Service shutting down Node card m Lctn m Card Sernum m Lp FF F2 9F E5 CB 0D..."" [WARNING] - never seen during training
+  Volume: 3 lines in window",0.3630557559210925
+53947,1,"ciod: Error reading message prefix on CioStream socket to <IP>, Link has been severed",True,True,True,"[ALERT 161] 2005-12-08 06:17-06:22 UTC | score higher than 96.5% of validation windows
+  Where: 18 node(s), 50% on midplane R63-M0 | component APP
+  What (largest contribution first):
+  - 16x ""ciod Error reading message prefix on Cio Stream socket to Link has been severed"" [FATAL] - never seen during training
+  - 1x ""ciodb has been restarted"" [INFO] - seen 72x during training
+  - 1x ""ciodb exited abnormally due to signal Aborted"" [FAILURE] - seen 4x during training
+  Volume: 19 lines in window",0.3630224889215591
+53958,1,"ciod: Error reading message prefix on CioStream socket to <IP>, Link has been severed",True,True,True,"[ALERT 162] 2005-12-08 07:12-07:17 UTC | score higher than 96.5% of validation windows
+  Where: 17 node(s), 53% on midplane R63-M0 | component APP
+  What (largest contribution first):
+  - 15x ""ciod Error reading message prefix on Cio Stream socket to Link has been severed"" [FATAL] - never seen during training
+  - 1x ""ciodb has been restarted"" [INFO] - seen 72x during training
+  - 1x ""ciodb exited abnormally due to signal Aborted"" [FAILURE] - seen 4x during training
+  Volume: 18 lines in window",0.3630224889215591
+59129,1,"ciod: Error reading message prefix on CioStream socket to <IP>, Link has been severed",True,True,True,"[ALERT 163] 2005-12-26 06:07-06:12 UTC | score higher than 96.5% of validation windows
+  Where: 544 node(s), 6% on midplane R30-M0 | component APP
+  What (largest contribution first):
+  - 512x ""ciod Error reading message prefix on Cio Stream socket to Link has been severed"" [FATAL] - never seen during training
+  - 1x ""rts panic! - stopping execution"" [FATAL] - seen 3,889x during training
+  - 1x ""torus receiver z+ input pipe error s dcr detected and corrected over seconds"" [INFO] - never seen during training
+  Volume: 612 lines in window",0.36297109016725027
+52046,1,"ciod: Error reading message prefix on CioStream socket to <IP>, Link has been severed",True,True,True,"[ALERT 164] 2005-12-01 15:52-15:57 UTC | score higher than 96.5% of validation windows
+  Where: 209 node(s), 100% on midplane R47-M1 | component KERNEL
+  What (largest contribution first):
+  - 8x ""ciod Error reading message prefix on Cio Stream socket to Link has been severed"" [FATAL] - never seen during training
+  - 199x ""total interrupts. critical input interrupts. microseconds total spent on critical input..."" [INFO] - never seen during training
+  - 1x ""ciodb has been restarted"" [INFO] - seen 72x during training
+  Volume: 408 lines in window",0.3627618128697619
+54384,0,"PrepareForService shutting down Node card(mLctn(<NODE>), mCardSernum(<HEX>), mLp(FF:F2:9F:<NUM>:B8:<NUM>:<NUM>:0D:<NUM>:E9:<NUM>:EF), mIp(<IP>), mType(<NUM>)) as part of Service Action <NUM>",False,True,,"[ALERT 165] 2005-12-09 18:42-18:47 UTC | score higher than 96.4% of validation windows
+  Where: 27 node(s), 50% on midplane R55-M1 | component HARDWARE
+  What (largest contribution first):
+  - 1x ""Prepare For Service shutting down Node card m Lctn m Card Sernum m Lp FF F2 9F B8 0D E9..."" [WARNING] - never seen during training
+  - 1x ""Prepare For Service shutting down Node card m Lctn m Card Sernum m Lp FF F2 9F B9 0D E9..."" [WARNING] - never seen during training
+  - 1x ""Prepare For Service is being done on this Midplane m Lctn m Card Sernum i Which Cards T..."" [WARNING] - never seen during training
+  Volume: 34 lines in window",0.3609274393128701
+52063,1,"ciod: Error reading message prefix on CioStream socket to <IP>, Link has been severed",True,True,True,"[ALERT 166] 2005-12-01 17:17-17:22 UTC | score higher than 96.4% of validation windows
+  Where: 520 node(s), 100% on midplane R00-M0 | component KERNEL
+  What (largest contribution first):
+  - 8x ""ciod Error reading message prefix on Cio Stream socket to Link has been severed"" [FATAL] - never seen during training
+  - 8x ""ciod poll Control Descriptors Detected the debugger died"" [INFO] - seen 609x during training
+  - 512x ""total interrupts. critical input interrupts. microseconds total spent on critical input..."" [INFO] - never seen during training
+  Volume: 1040 lines in window",0.36070743796378757
+52611,1,job <NUM> timed out. Block freed.,False,False,False,"[ALERT 167] 2005-12-03 14:57-15:02 UTC | score higher than 96.4% of validation windows
+  Where: 716 node(s), 1% on midplane R72-M1 | component APP
+  What (largest contribution first):
+  - 1x ""job timed out. Block freed"" [Kill] - seen 224x during training
+  - 128x ""ciod Error reading message prefix after LOAD MESSAGE on Cio Stream socket to Link has b..."" [FATAL] - seen 13,949x during training
+  - 1x ""ciodb has been restarted"" [INFO] - seen 72x during training
+  Volume: 717 lines in window",0.3598442936284773
+51748,1,"ciod: Error reading message prefix on CioStream socket to <IP>, Link has been severed",True,True,True,"[ALERT 168] 2005-11-30 15:02-15:07 UTC | score higher than 96.4% of validation windows
+  Where: 67 node(s), 5% on midplane R30-M1 | component APP
+  What (largest contribution first):
+  - 65x ""ciod Error reading message prefix on Cio Stream socket to Link has been severed"" [FATAL] - never seen during training
+  - 1x ""ciodb has been restarted"" [INFO] - seen 72x during training
+  - 1x ""ciodb exited abnormally due to signal Aborted"" [FAILURE] - seen 4x during training
+  Volume: 68 lines in window",0.35934297188258396
+50688,1,"ciod: Error reading message prefix on CioStream socket to <IP>, Link has been severed",True,True,False,"[ALERT 169] 2005-11-26 22:42-22:47 UTC | score higher than 96.4% of validation windows
+  Where: 384 node(s), 7% on midplane R23-M1 | component KERNEL
+  What (largest contribution first):
+  - 171x ""ciod Error reading message prefix on Cio Stream socket to Link has been severed"" [FATAL] - never seen during training
+  - 309x ""ciod Received signal code errno address"" [INFO] - never seen during training
+  - 2x ""tree receiver in re-synch state event s dcr detected over seconds"" [INFO] - never seen during training
+  Volume: 655 lines in window",0.3592398913508046
+61598,1,"ciod: Error reading message prefix on CioStream socket to <IP>, Link has been severed",True,True,True,"[ALERT 170] 2006-01-03 19:52-19:57 UTC | score higher than 96.3% of validation windows
+  Where: 3 node(s), 50% on midplane R76-M0 | component APP
+  What (largest contribution first):
+  - 2x ""ciod Error reading message prefix on Cio Stream socket to Link has been severed"" [FATAL] - never seen during training
+  - 1x ""job timed out. Block freed"" [Kill] - seen 224x during training
+  Volume: 3 lines in window",0.3587324154352976
+52705,1,"ciod: Error reading message prefix on CioStream socket to <IP>, Link has been severed",True,True,True,"[ALERT 171] 2005-12-03 22:47-22:52 UTC | score higher than 96.3% of validation windows
+  Where: 237 node(s), 3% on midplane R67-M0 | component APP
+  What (largest contribution first):
+  - 235x ""ciod Error reading message prefix on Cio Stream socket to Link has been severed"" [FATAL] - never seen during training
+  - 1x ""ciodb has been restarted"" [INFO] - seen 72x during training
+  - 1x ""ciodb exited abnormally due to signal Aborted"" [FAILURE] - seen 4x during training
+  Volume: 238 lines in window",0.35832029597499904
+52452,1,"ciod: Error reading message prefix on CioStream socket to <IP>, Link has been severed",True,True,True,"[ALERT 172] 2005-12-03 01:42-01:47 UTC | score higher than 96.3% of validation windows
+  Where: 258 node(s), 3% on midplane R40-M1 | component APP
+  What (largest contribution first):
+  - 256x ""ciod Error reading message prefix on Cio Stream socket to Link has been severed"" [FATAL] - never seen during training
+  - 1x ""ciodb has been restarted"" [INFO] - seen 72x during training
+  - 1x ""ciodb exited abnormally due to signal Aborted"" [FAILURE] - seen 4x during training
+  Volume: 259 lines in window",0.35832029597499904
+50569,1,"ciod: Error reading message prefix on CioStream socket to <IP>, Link has been severed",True,True,True,"[ALERT 173] 2005-11-26 12:47-12:52 UTC | score higher than 96.2% of validation windows
+  Where: 927 node(s), 1% on midplane R77-M1 | component APP
+  What (largest contribution first):
+  - 910x ""ciod Error reading message prefix on Cio Stream socket to Link has been severed"" [FATAL] - never seen during training
+  - 412x ""ciod Received signal code errno address"" [INFO] - never seen during training
+  - 1x ""job timed out. Block freed"" [Kill] - seen 224x during training
+  Volume: 1323 lines in window",0.3581609817998321
+51587,1,"ciod: Error reading message prefix on CioStream socket to <IP>, Link has been severed",True,True,False,"[ALERT 174] 2005-11-30 01:37-01:42 UTC | score higher than 96.2% of validation windows
+  Where: 43 node(s), 16% on midplane R17-M0 | component APP
+  What (largest contribution first):
+  - 42x ""ciod Error reading message prefix on Cio Stream socket to Link has been severed"" [FATAL] - never seen during training
+  - 13x ""ciod Received signal code errno address"" [INFO] - never seen during training
+  - 1x ""shutdown complete"" [INFO] - seen 93x during training
+  Volume: 56 lines in window",0.3573905738994726
+60395,1,"ciod: Error reading message prefix on CioStream socket to <IP>, Link has been severed",True,True,False,"[ALERT 175] 2005-12-30 15:37-15:42 UTC | score higher than 96.2% of validation windows
+  Where: 306 node(s), 3% on midplane R74-M1 | component APP
+  What (largest contribution first):
+  - 294x ""ciod Error reading message prefix on Cio Stream socket to Link has been severed"" [FATAL] - never seen during training
+  - 1x ""ciod Received signal code errno address"" [INFO] - never seen during training
+  - 9x ""total of ddr error s detected and corrected over seconds"" [INFO] - never seen during training
+  Volume: 320 lines in window",0.3572117397232764
+52022,0,Starting SystemController,False,False,,"[ALERT 176] 2005-12-01 13:52-13:57 UTC | score higher than 96.2% of validation windows
+  Where: 63 node(s), 6% on midplane R06-M0 | component KERNEL
+  What (largest contribution first):
+  - 1x ""Starting System Controller"" [INFO] - seen 50x during training
+  - 1x ""Controlling BG/L rows"" [INFO] - seen 29x during training
+  - 18x ""critical input interrupt unit bit warning for tree C1 wire suppressing further interrup..."" [INFO] - never seen during training
+  Volume: 66 lines in window",0.3571576021233746
+52754,0,"Node card VPD check: U0<NUM> node in processor card slot J0<NUM> do not match. VPD ecid <HEX>, found <HEX>",False,False,,"[ALERT 177] 2005-12-04 02:52-02:57 UTC | score higher than 96.2% of validation windows
+  Where: 3 node(s), 100% on midplane R21-M1 | component DISCOVERY
+  What (largest contribution first):
+  - 3x ""Node card VPD check U0 node in processor card slot J0 do not match. VPD ecid found"" [INFO] - seen 4,778x during training
+  - 3x ""Node card VPD check U1 node in processor card slot J0 do not match. VPD ecid found"" [INFO] - seen 4,778x during training
+  Volume: 6 lines in window",0.35713199549206026
+53607,0,"Node card VPD check: U0<NUM> node in processor card slot J1<NUM> do not match. VPD ecid <HEX>, found <HEX>",False,False,,"[ALERT 178] 2005-12-07 01:57-02:02 UTC | score higher than 96.2% of validation windows
+  Where: 1 node(s), 100% on midplane R03-M0 | component DISCOVERY
+  What (largest contribution first):
+  - 2x ""Node card VPD check U0 node in processor card slot J1 do not match. VPD ecid found"" [INFO] - seen 5,278x during training
+  - 2x ""Node card VPD check U1 node in processor card slot J1 do not match. VPD ecid found"" [INFO] - seen 5,278x during training
+  Volume: 4 lines in window",0.35713199549206026
+49570,0,"Node card VPD check: U0<NUM> node in processor card slot J1<NUM> do not match. VPD ecid <HEX>, found <HEX>",False,False,,"[ALERT 179] 2005-11-23 01:32-01:37 UTC | score higher than 96.2% of validation windows
+  Where: 1 node(s), 100% on midplane R47-M1 | component DISCOVERY
+  What (largest contribution first):
+  - 1x ""Node card VPD check U0 node in processor card slot J1 do not match. VPD ecid found"" [INFO] - seen 5,278x during training
+  - 1x ""Node card VPD check U1 node in processor card slot J1 do not match. VPD ecid found"" [INFO] - seen 5,278x during training
+  Volume: 2 lines in window",0.3570514610335456
+53636,1,"ciod: Error reading message prefix on CioStream socket to <IP>, Link has been severed",True,True,False,"[ALERT 180] 2005-12-07 04:22-04:27 UTC | score higher than 96.2% of validation windows
+  Where: 2092 node(s), 14% on midplane R32-M1 | component KERNEL
+  What (largest contribution first):
+  - 256x ""ciod Error reading message prefix on Cio Stream socket to Link has been severed"" [FATAL] - never seen during training
+  - 1x ""job timed out. Block freed"" [Kill] - seen 224x during training
+  - 1x ""ciodb exited abnormally due to signal Aborted"" [FAILURE] - seen 4x during training
+  Volume: 2098 lines in window",0.3570009748076668
+52924,1,"ciod: Error reading message prefix on CioStream socket to <IP>, Link has been severed",True,True,False,"[ALERT 181] 2005-12-04 17:02-17:07 UTC | score higher than 96.2% of validation windows
+  Where: 237 node(s), 7% on midplane R62-M0 | component KERNEL
+  What (largest contribution first):
+  - 162x ""ciod Error reading message prefix on Cio Stream socket to Link has been severed"" [FATAL] - never seen during training
+  - 1x ""torus receiver x+ input pipe error s dcr detected and corrected over seconds"" [INFO] - never seen during training
+  - 1x ""torus receiver z- input pipe error s dcr detected and corrected over seconds"" [INFO] - never seen during training
+  Volume: 1142 lines in window",0.3569917615637863
+50738,1,"ciod: Error reading message prefix on CioStream socket to <IP>, Link has been severed",True,True,False,"[ALERT 182] 2005-11-27 02:52-02:57 UTC | score higher than 96.2% of validation windows
+  Where: 259 node(s), 4% on midplane R13-M1 | component APP
+  What (largest contribution first):
+  - 259x ""ciod Error reading message prefix on Cio Stream socket to Link has been severed"" [FATAL] - never seen during training
+  - 32x ""ciod Received signal code errno address"" [INFO] - never seen during training
+  Volume: 291 lines in window",0.3569786554929512
+51572,0,,False,False,,"[ALERT 183] 2005-11-30 00:22-00:27 UTC | score higher than 96.2% of validation windows
+  Where: 2 node(s), 100% on midplane R67-M1 | component DISCOVERY
+  What (largest contribution first):
+  - no single event type dominates; the unusual part is the overall mix/volume
+  Volume: 34 lines in window",0.35697094473582053
+54205,0,,False,False,,"[ALERT 184] 2005-12-09 03:47-03:52 UTC | score higher than 96.2% of validation windows
+  Where: 6 node(s), 100% on midplane R63-M0 | component DISCOVERY
+  What (largest contribution first):
+  - no single event type dominates; the unusual part is the overall mix/volume
+  Volume: 42 lines in window",0.35697094473582053
+52185,1,"ciod: Error reading message prefix on CioStream socket to <IP>, Link has been severed",True,True,True,"[ALERT 185] 2005-12-02 03:27-03:32 UTC | score higher than 96.2% of validation windows
+  Where: 679 node(s), 1% on midplane R20-M1 | component APP
+  What (largest contribution first):
+  - 677x ""ciod Error reading message prefix on Cio Stream socket to Link has been severed"" [FATAL] - never seen during training
+  - 1x ""job timed out. Block freed"" [Kill] - seen 224x during training
+  - 1x ""ciodb has been restarted"" [INFO] - seen 72x during training
+  Volume: 680 lines in window",0.3569349906152315
+60207,0,,False,False,,"[ALERT 186] 2005-12-29 23:57-00:02 UTC | score higher than 96.1% of validation windows
+  Where: 4 node(s), 100% on midplane R22-M0 | component HARDWARE
+  What (largest contribution first):
+  - no single event type dominates; the unusual part is the overall mix/volume
+  Volume: 4 lines in window",0.3565079202450271
+50989,1,"ciod: Error reading message prefix on CioStream socket to <IP>, Link has been severed",True,True,False,"[ALERT 187] 2005-11-27 23:47-23:52 UTC | score higher than 96.0% of validation windows
+  Where: 365 node(s), 3% on midplane R17-M1 | component APP
+  What (largest contribution first):
+  - 365x ""ciod Error reading message prefix on Cio Stream socket to Link has been severed"" [FATAL] - never seen during training
+  - 175x ""ciod Received signal code errno address"" [INFO] - never seen during training
+  Volume: 540 lines in window",0.356193469969192
+50244,1,"ciod: Error reading message prefix on CioStream socket to <IP>, Link has been severed",True,True,True,"[ALERT 188] 2005-11-25 09:42-09:47 UTC | score higher than 96.0% of validation windows
+  Where: 70 node(s), 10% on midplane R77-M0 | component APP
+  What (largest contribution first):
+  - 64x ""ciod Error reading message prefix on Cio Stream socket to Link has been severed"" [FATAL] - never seen during training
+  - 1x ""torus receiver x+ input pipe error s dcr detected and corrected over seconds"" [INFO] - never seen during training
+  - 1x ""ciod Received signal code errno address"" [INFO] - never seen during training
+  Volume: 79 lines in window",0.3557950992851456
+50051,1,"ciod: Error reading message prefix on CioStream socket to <IP>, Link has been severed",True,True,False,"[ALERT 189] 2005-11-24 17:37-17:42 UTC | score higher than 96.0% of validation windows
+  Where: 419 node(s), 6% on midplane R03-M0 | component KERNEL
+  What (largest contribution first):
+  - 211x ""ciod Error reading message prefix on Cio Stream socket to Link has been severed"" [FATAL] - never seen during training
+  - 407x ""ciod Received signal code errno address"" [INFO] - never seen during training
+  - 48x ""CE sym at mask"" [INFO] - seen 146,285x during training
+  Volume: 690 lines in window",0.3557514815007747
+53461,0,"PrepareForService is being done on this Midplane (mLctn(<NODE>), mCardSernum(<HEX>), iWhichCardsToPwrOff(<NUM>)) by root",False,True,,"[ALERT 190] 2005-12-06 13:47-13:52 UTC | score higher than 96.0% of validation windows
+  Where: 1027 node(s), 1% on midplane R12-M0 | component APP
+  What (largest contribution first):
+  - 1x ""Prepare For Service is being done on this Midplane m Lctn m Card Sernum i Which Cards T..."" [WARNING] - never seen during training
+  - 1x ""Prepare For Service shutting down Node card m Lctn m Card Sernum m Lp FF F2 9F E4 0D E9..."" [WARNING] - never seen during training
+  - 1x ""Prepare For Service shutting down Node card m Lctn m Card Sernum m Lp FF F2 9F E4 0D E9..."" [WARNING] - never seen during training
+  Volume: 1027 lines in window",0.3557378022147467
+59288,0,Ido chip status changed: FF:F2:9F:<NUM>:C4:EF:<NUM>:0D:<NUM>:E9:3B:<NUM> ip=<IP> v=<NUM> t=<NUM> status=M Mon Dec <NUM> <NUM>:<NUM>:<NUM> PST <NUM>,False,True,,"[ALERT 191] 2005-12-26 19:22-19:27 UTC | score higher than 96.0% of validation windows
+  Where: 1 node(s) | component DISCOVERY
+  What (largest contribution first):
+  - 1x ""Ido chip status changed FF F2 9F C4 EF 0D E9 3B ip v t status M Mon Dec PST"" [INFO] - never seen during training
+  - 1x ""Ido chip status changed FF F2 9F D7 DF 0D E9 ip v t status M Mon Dec PST"" [INFO] - never seen during training
+  - 1x ""Ido chip status changed FF F2 9F DB A2 0D E9 5D ip v t status M Mon Dec PST"" [INFO] - never seen during training
+  Volume: 16 lines in window",0.3557295692115966
+50340,1,"ciod: Error reading message prefix on CioStream socket to <IP>, Link has been severed",True,True,False,"[ALERT 192] 2005-11-25 17:42-17:47 UTC | score higher than 96.0% of validation windows
+  Where: 1032 node(s), 4% on midplane R47-M1 | component APP
+  What (largest contribution first):
+  - 1023x ""ciod Error reading message prefix on Cio Stream socket to Link has been severed"" [FATAL] - never seen during training
+  - 1x ""ciod Received signal code errno address"" [INFO] - never seen during training
+  - 1x ""torus receiver x+ input pipe error s dcr detected and corrected over seconds"" [INFO] - never seen during training
+  Volume: 1076 lines in window",0.3549893426107502
+52389,1,"ciod: Error reading message prefix on CioStream socket to <IP>, Link has been severed",True,True,False,"[ALERT 193] 2005-12-02 20:27-20:32 UTC | score higher than 96.0% of validation windows
+  Where: 93 node(s), 7% on midplane R07-M0 | component APP
+  What (largest contribution first):
+  - 90x ""ciod Error reading message prefix on Cio Stream socket to Link has been severed"" [FATAL] - never seen during training
+  - 1x ""ciod Received signal code errno address"" [INFO] - never seen during training
+  - 2x ""CE sym at mask"" [INFO] - seen 146,285x during training
+  Volume: 97 lines in window",0.3548915755531936
+50245,1,"ciod: Error reading message prefix on CioStream socket to <IP>, Link has been severed",True,True,False,"[ALERT 194] 2005-11-25 09:47-09:52 UTC | score higher than 96.0% of validation windows
+  Where: 962 node(s), 1% on midplane R55-M0 | component APP
+  What (largest contribution first):
+  - 958x ""ciod Error reading message prefix on Cio Stream socket to Link has been severed"" [FATAL] - never seen during training
+  - 1x ""torus receiver x+ input pipe error s dcr detected and corrected over seconds"" [INFO] - never seen during training
+  - 1x ""torus receiver z- input pipe error s dcr detected and corrected over seconds"" [INFO] - never seen during training
+  Volume: 970 lines in window",0.3548309349867564
+52390,1,"ciod: Error reading message prefix on CioStream socket to <IP>, Link has been severed",True,True,False,"[ALERT 195] 2005-12-02 20:32-20:37 UTC | score higher than 96.0% of validation windows
+  Where: 942 node(s), 4% on midplane R20-M1 | component APP
+  What (largest contribution first):
+  - 932x ""ciod Error reading message prefix on Cio Stream socket to Link has been severed"" [FATAL] - never seen during training
+  - 5x ""tree receiver in re-synch state event s dcr detected over seconds"" [INFO] - never seen during training
+  - 68x ""CE sym at mask"" [INFO] - seen 146,285x during training
+  Volume: 1023 lines in window",0.3547940553667975
+52062,1,"ciod: Error reading message prefix on CioStream socket to <IP>, Link has been severed",True,True,False,"[ALERT 196] 2005-12-01 17:12-17:17 UTC | score higher than 96.0% of validation windows
+  Where: 1188 node(s), 43% on midplane R00-M0 | component KERNEL
+  What (largest contribution first):
+  - 8x ""ciod Error reading message prefix on Cio Stream socket to Link has been severed"" [FATAL] - never seen during training
+  - 1178x ""total interrupts. critical input interrupts. microseconds total spent on critical input..."" [INFO] - never seen during training
+  - 1x ""ciodb has been restarted"" [INFO] - seen 72x during training
+  Volume: 2367 lines in window",0.35476525113621754
+50008,1,machine check interrupt (bit=<HEX>): L2 dcache unit read return parity error,True,True,True,"[ALERT 197] 2005-11-24 14:02-14:07 UTC | score higher than 96.0% of validation windows
+  Where: 1 node(s), 100% on midplane R03-M1 | component KERNEL
+  What (largest contribution first):
+  - 1x ""machine check interrupt bit L2 dcache unit read return parity error"" [FATAL] - never seen during training
+  - 1x ""Machine Check Status Register"" [FATAL] - never seen during training
+  - 1x ""machine check summary"" [FATAL] - never seen during training
+  Volume: 4 lines in window",0.35453082241509676
+50200,1,"ciod: Error reading message prefix on CioStream socket to <IP>, Link has been severed",True,True,False,"[ALERT 198] 2005-11-25 06:02-06:07 UTC | score higher than 96.0% of validation windows
+  Where: 695 node(s), 2% on midplane R72-M1 | component APP
+  What (largest contribution first):
+  - 688x ""ciod Error reading message prefix on Cio Stream socket to Link has been severed"" [FATAL] - never seen during training
+  - 1x ""ciod Received signal code errno address"" [INFO] - never seen during training
+  - 1x ""tree receiver in re-synch state event s dcr detected over seconds"" [INFO] - never seen during training
+  Volume: 705 lines in window",0.3544079903519021
+50712,1,"ciod: Error reading message prefix on CioStream socket to <IP>, Link has been severed",True,True,False,"[ALERT 199] 2005-11-27 00:42-00:47 UTC | score higher than 96.0% of validation windows
+  Where: 150 node(s), 6% on midplane R14-M1 | component KERNEL
+  What (largest contribution first):
+  - 88x ""ciod Error reading message prefix on Cio Stream socket to Link has been severed"" [FATAL] - never seen during training
+  - 93x ""ciod Received signal code errno address"" [INFO] - never seen during training
+  Volume: 181 lines in window",0.3543334895752868
+60002,1,"ciod: Error reading message prefix on CioStream socket to <IP>, Link has been severed",True,True,True,"[ALERT 200] 2005-12-29 06:52-06:57 UTC | score higher than 95.9% of validation windows
+  Where: 16 node(s), 53% on midplane R30-M1 | component APP
+  What (largest contribution first):
+  - 15x ""ciod Error reading message prefix on Cio Stream socket to Link has been severed"" [FATAL] - never seen during training
+  - 1x ""job timed out. Block freed"" [Kill] - seen 224x during training
+  Volume: 16 lines in window",0.354173979242121
+56673,1,"ciod: Error reading message prefix on CioStream socket to <IP>, Link has been severed",True,True,True,"[ALERT 201] 2005-12-17 17:27-17:32 UTC | score higher than 95.9% of validation windows
+  Where: 17 node(s), 50% on midplane R63-M1 | component APP
+  What (largest contribution first):
+  - 16x ""ciod Error reading message prefix on Cio Stream socket to Link has been severed"" [FATAL] - never seen during training
+  - 1x ""job timed out. Block freed"" [Kill] - seen 224x during training
+  Volume: 17 lines in window",0.354173979242121
+55063,1,ciod: Error reading message prefix after LOGIN_MESSAGE on CioStream socket to <IP>: Link has been severed,True,False,True,"[ALERT 202] 2005-12-12 03:17-03:22 UTC | score higher than 95.8% of validation windows
+  Where: 1024 node(s), 1% on midplane R40-M1 | component APP
+  What (largest contribution first):
+  - 208x ""ciod Error reading message prefix after LOGIN MESSAGE on Cio Stream socket to Link has ..."" [FATAL] - seen 5,475x during training
+  - 816x ""ciod LOGIN chdir failed Input/output error"" [FATAL] - never seen during training
+  Volume: 1024 lines in window",0.3535976256286508
+60396,1,"ciod: Error reading message prefix on CioStream socket to <IP>, Link has been severed",True,True,False,"[ALERT 203] 2005-12-30 15:42-15:47 UTC | score higher than 95.8% of validation windows
+  Where: 240 node(s), 4% on midplane R55-M0 | component APP
+  What (largest contribution first):
+  - 217x ""ciod Error reading message prefix on Cio Stream socket to Link has been severed"" [FATAL] - never seen during training
+  - 2x ""torus receiver x+ input pipe error s dcr detected and corrected over seconds"" [INFO] - never seen during training
+  - 1x ""torus receiver y+ input pipe error s dcr detected and corrected over seconds"" [INFO] - never seen during training
+  Volume: 268 lines in window",0.35348890400559857
+51761,0,ddr: activating redundant bit steering for next allocation: rank=<NUM> symbol=<NUM>,False,False,,"[ALERT 204] 2005-11-30 16:07-16:12 UTC | score higher than 95.7% of validation windows
+  Where: 34 node(s), 9% on midplane R35-M1 | component KERNEL
+  What (largest contribution first):
+  - 2x ""ddr activating redundant bit steering for next allocation rank symbol"" [INFO] - seen 46x during training
+  - 1x ""torus receiver y- input pipe error s dcr detected and corrected over seconds"" [INFO] - never seen during training
+  - 7x ""critical input interrupt unit bit warning for tree C1 wire suppressing further interrup..."" [INFO] - never seen during training
+  Volume: 35 lines in window",0.35295853315716874
+51771,0,ddr: activating redundant bit steering for next allocation: rank=<NUM> symbol=<NUM>,False,False,,"[ALERT 205] 2005-11-30 16:57-17:02 UTC | score higher than 95.7% of validation windows
+  Where: 74 node(s), 32% on midplane R22-M0 | component KERNEL
+  What (largest contribution first):
+  - 2x ""ddr activating redundant bit steering for next allocation rank symbol"" [INFO] - seen 46x during training
+  - 15x ""critical input interrupt unit bit warning for tree C1 wire suppressing further interrup..."" [INFO] - never seen during training
+  - 5x ""critical input interrupt unit bit warning for tree C0 wire suppressing further interrup..."" [INFO] - never seen during training
+  Volume: 107 lines in window",0.35293967459918085
+52079,1,"ciod: Error reading message prefix on CioStream socket to <IP>, Link has been severed",True,True,True,"[ALERT 206] 2005-12-01 18:37-18:42 UTC | score higher than 95.7% of validation windows
+  Where: 255 node(s), 100% on midplane R01-M0 | component KERNEL
+  What (largest contribution first):
+  - 8x ""ciod Error reading message prefix on Cio Stream socket to Link has been severed"" [FATAL] - never seen during training
+  - 493x ""total interrupts. critical input interrupts. microseconds total spent on critical input..."" [INFO] - never seen during training
+  Volume: 993 lines in window",0.35276273300818556
+60209,0,Ido chip status changed: FF:F2:9F:<NUM>:C7:ED:<NUM>:0D:<NUM>:E9:<NUM>:<NUM> ip=<IP> v=<NUM> t=<NUM> status=M Thu Dec <NUM> <NUM>:<NUM>:<NUM> PST <NUM>,False,True,,"[ALERT 207] 2005-12-30 00:07-00:12 UTC | score higher than 95.7% of validation windows
+  Where: 1 node(s) | component DISCOVERY
+  What (largest contribution first):
+  - 1x ""Ido chip status changed FF F2 9F C7 ED 0D E9 ip v t status M Thu Dec PST"" [INFO] - never seen during training
+  - 1x ""Ido chip status changed FF F2 9F C0 0D E9 3F BF ip v t status M Thu Dec PST"" [INFO] - never seen during training
+  - 1x ""Ido chip status changed FF F2 9F CF 4B 0D E9 B4 ip v t status M Thu Dec PST"" [INFO] - never seen during training
+  Volume: 20 lines in window",0.3526514981442163
+59305,1,"ciod: Error reading message prefix on CioStream socket to <IP>, Link has been severed",True,True,True,"[ALERT 208] 2005-12-26 20:47-20:52 UTC | score higher than 95.7% of validation windows
+  Where: 512 node(s), 2% on midplane R77-M0 | component APP
+  What (largest contribution first):
+  - 511x ""ciod Error reading message prefix on Cio Stream socket to Link has been severed"" [FATAL] - never seen during training
+  - 1x ""job timed out. Block freed"" [Kill] - seen 224x during training
+  Volume: 512 lines in window",0.3525154156936273
+55375,1,"ciod: Error reading message prefix on CioStream socket to <IP>, Link has been severed",True,True,True,"[ALERT 209] 2005-12-13 05:17-05:22 UTC | score higher than 95.7% of validation windows
+  Where: 957 node(s), 1% on midplane R00-M0 | component APP
+  What (largest contribution first):
+  - 956x ""ciod Error reading message prefix on Cio Stream socket to Link has been severed"" [FATAL] - never seen during training
+  - 1x ""job timed out. Block freed"" [Kill] - seen 224x during training
+  Volume: 957 lines in window",0.3525154156936273
+55525,1,"ciod: Error reading message prefix on CioStream socket to <IP>, Link has been severed",True,True,True,"[ALERT 210] 2005-12-13 17:47-17:52 UTC | score higher than 95.7% of validation windows
+  Where: 174 node(s), 2% on midplane R44-M1 | component APP
+  What (largest contribution first):
+  - 173x ""ciod Error reading message prefix on Cio Stream socket to Link has been severed"" [FATAL] - never seen during training
+  - 1x ""job timed out. Block freed"" [Kill] - seen 224x during training
+  Volume: 174 lines in window",0.3525154156936273
+56997,1,"ciod: Error reading message prefix on CioStream socket to <IP>, Link has been severed",True,True,True,"[ALERT 211] 2005-12-18 20:27-20:32 UTC | score higher than 95.7% of validation windows
+  Where: 586 node(s), 1% on midplane R77-M0 | component APP
+  What (largest contribution first):
+  - 585x ""ciod Error reading message prefix on Cio Stream socket to Link has been severed"" [FATAL] - never seen during training
+  - 1x ""job timed out. Block freed"" [Kill] - seen 224x during training
+  Volume: 586 lines in window",0.3525154156936273
+55782,1,"ciod: Error reading message prefix on CioStream socket to <IP>, Link has been severed",True,True,True,"[ALERT 212] 2005-12-14 15:12-15:17 UTC | score higher than 95.7% of validation windows
+  Where: 693 node(s), 1% on midplane R77-M0 | component APP
+  What (largest contribution first):
+  - 692x ""ciod Error reading message prefix on Cio Stream socket to Link has been severed"" [FATAL] - never seen during training
+  - 1x ""job timed out. Block freed"" [Kill] - seen 224x during training
+  Volume: 693 lines in window",0.3525154156936273
+54525,1,"ciod: Error reading message prefix on CioStream socket to <IP>, Link has been severed",True,True,True,"[ALERT 213] 2005-12-10 06:27-06:32 UTC | score higher than 95.7% of validation windows
+  Where: 113 node(s), 5% on midplane R45-M1 | component APP
+  What (largest contribution first):
+  - 112x ""ciod Error reading message prefix on Cio Stream socket to Link has been severed"" [FATAL] - never seen during training
+  - 1x ""job timed out. Block freed"" [Kill] - seen 224x during training
+  Volume: 113 lines in window",0.3525154156936273
+56287,1,"ciod: Error reading message prefix on CioStream socket to <IP>, Link has been severed",True,True,True,"[ALERT 214] 2005-12-16 09:17-09:22 UTC | score higher than 95.7% of validation windows
+  Where: 750 node(s), 1% on midplane R45-M1 | component APP
+  What (largest contribution first):
+  - 749x ""ciod Error reading message prefix on Cio Stream socket to Link has been severed"" [FATAL] - never seen during training
+  - 1x ""job timed out. Block freed"" [Kill] - seen 224x during training
+  Volume: 750 lines in window",0.3525154156936273
+57232,1,"ciod: Error reading message prefix on CioStream socket to <IP>, Link has been severed",True,True,True,"[ALERT 215] 2005-12-19 16:02-16:07 UTC | score higher than 95.7% of validation windows
+  Where: 137 node(s), 5% on midplane R54-M1 | component APP
+  What (largest contribution first):
+  - 136x ""ciod Error reading message prefix on Cio Stream socket to Link has been severed"" [FATAL] - never seen during training
+  - 1x ""job timed out. Block freed"" [Kill] - seen 224x during training
+  Volume: 137 lines in window",0.3525154156936273
+57226,1,"ciod: Error reading message prefix on CioStream socket to <IP>, Link has been severed",True,True,True,"[ALERT 216] 2005-12-19 15:32-15:37 UTC | score higher than 95.7% of validation windows
+  Where: 134 node(s), 5% on midplane R50-M1 | component APP
+  What (largest contribution first):
+  - 133x ""ciod Error reading message prefix on Cio Stream socket to Link has been severed"" [FATAL] - never seen during training
+  - 1x ""job timed out. Block freed"" [Kill] - seen 224x during training
+  Volume: 134 lines in window",0.3525154156936273
+55217,1,"ciod: Error reading message prefix on CioStream socket to <IP>, Link has been severed",True,True,True,"[ALERT 217] 2005-12-12 16:07-16:12 UTC | score higher than 95.7% of validation windows
+  Where: 1023 node(s), 1% on midplane R77-M1 | component APP
+  What (largest contribution first):
+  - 1022x ""ciod Error reading message prefix on Cio Stream socket to Link has been severed"" [FATAL] - never seen during training
+  - 1x ""job timed out. Block freed"" [Kill] - seen 224x during training
+  Volume: 1023 lines in window",0.3525154156936273
+60201,0,"PrepareForService is being done on this Midplane (mLctn(<NODE>), mCardSernum(<HEX>), iWhichCardsToPwrOff(<NUM>)) by root",False,True,,"[ALERT 218] 2005-12-29 23:27-23:32 UTC | score higher than 95.6% of validation windows
+  Where: 2 node(s), 100% on midplane R22-M1 | component CMCS
+  What (largest contribution first):
+  - 1x ""Prepare For Service is being done on this Midplane m Lctn m Card Sernum i Which Cards T..."" [WARNING] - never seen during training
+  - 1x ""Starting System Controller"" [INFO] - seen 50x during training
+  - 1x ""Controlling BG/L rows"" [INFO] - seen 29x during training
+  Volume: 4 lines in window",0.35169431870569035
+55975,1,"ciod: Error reading message prefix on CioStream socket to <IP>, Link has been severed",True,True,False,"[ALERT 219] 2005-12-15 07:17-07:22 UTC | score higher than 95.6% of validation windows
+  Where: 461 node(s), 2% on midplane R15-M0 | component APP
+  What (largest contribution first):
+  - 456x ""ciod Error reading message prefix on Cio Stream socket to Link has been severed"" [FATAL] - never seen during training
+  Volume: 466 lines in window",0.3516919979160468
+50201,1,"ciod: Error reading message prefix on CioStream socket to <IP>, Link has been severed",True,True,False,"[ALERT 220] 2005-11-25 06:07-06:12 UTC | score higher than 95.4% of validation windows
+  Where: 338 node(s), 3% on midplane R35-M0 | component APP
+  What (largest contribution first):
+  - 335x ""ciod Error reading message prefix on Cio Stream socket to Link has been severed"" [FATAL] - never seen during training
+  Volume: 344 lines in window",0.3514493747795756
+55526,1,"ciod: Error reading message prefix on CioStream socket to <IP>, Link has been severed",True,True,True,"[ALERT 221] 2005-12-13 17:52-17:57 UTC | score higher than 94.8% of validation windows
+  Where: 851 node(s), 1% on midplane R02-M1 | component APP
+  What (largest contribution first):
+  - 851x ""ciod Error reading message prefix on Cio Stream socket to Link has been severed"" [FATAL] - never seen during training
+  Volume: 851 lines in window",0.35057891706283045
+59271,1,"ciod: Error reading message prefix on CioStream socket to <IP>, Link has been severed",True,True,True,"[ALERT 222] 2005-12-26 17:57-18:02 UTC | score higher than 94.8% of validation windows
+  Where: 122 node(s), 7% on midplane R46-M0 | component APP
+  What (largest contribution first):
+  - 122x ""ciod Error reading message prefix on Cio Stream socket to Link has been severed"" [FATAL] - never seen during training
+  Volume: 122 lines in window",0.35057891706283045
+55783,1,"ciod: Error reading message prefix on CioStream socket to <IP>, Link has been severed",True,True,True,"[ALERT 223] 2005-12-14 15:17-15:22 UTC | score higher than 94.8% of validation windows
+  Where: 332 node(s), 2% on midplane R75-M1 | component APP
+  What (largest contribution first):
+  - 332x ""ciod Error reading message prefix on Cio Stream socket to Link has been severed"" [FATAL] - never seen during training
+  Volume: 332 lines in window",0.35057891706283045
+56288,1,"ciod: Error reading message prefix on CioStream socket to <IP>, Link has been severed",True,True,True,"[ALERT 224] 2005-12-16 09:22-09:27 UTC | score higher than 94.8% of validation windows
+  Where: 21 node(s), 14% on midplane R13-M0 | component APP
+  What (largest contribution first):
+  - 21x ""ciod Error reading message prefix on Cio Stream socket to Link has been severed"" [FATAL] - never seen during training
+  Volume: 21 lines in window",0.35057891706283045
+49843,1,"ciod: Error reading message prefix on CioStream socket to <IP>, Link has been severed",True,True,True,"[ALERT 225] 2005-11-24 00:17-00:22 UTC | score higher than 94.8% of validation windows
+  Where: 8 node(s), 100% on midplane R62-M0 | component APP
+  What (largest contribution first):
+  - 8x ""ciod Error reading message prefix on Cio Stream socket to Link has been severed"" [FATAL] - never seen during training
+  Volume: 8 lines in window",0.35057891706283045
+56998,1,"ciod: Error reading message prefix on CioStream socket to <IP>, Link has been severed",True,True,True,"[ALERT 226] 2005-12-18 20:32-20:37 UTC | score higher than 94.8% of validation windows
+  Where: 439 node(s), 2% on midplane R27-M0 | component APP
+  What (largest contribution first):
+  - 439x ""ciod Error reading message prefix on Cio Stream socket to Link has been severed"" [FATAL] - never seen during training
+  Volume: 439 lines in window",0.35057891706283045
+54526,1,"ciod: Error reading message prefix on CioStream socket to <IP>, Link has been severed",True,True,True,"[ALERT 227] 2005-12-10 06:32-06:37 UTC | score higher than 94.8% of validation windows
+  Where: 136 node(s), 6% on midplane R57-M1 | component APP
+  What (largest contribution first):
+  - 136x ""ciod Error reading message prefix on Cio Stream socket to Link has been severed"" [FATAL] - never seen during training
+  Volume: 136 lines in window",0.35057891706283045
+59283,0,Ido chip status changed: FF:F2:9F:<NUM>:C0:EF:<NUM>:0D:<NUM>:E9:3F:<NUM> ip=<IP> v=<NUM> t=<NUM> status=M Mon Dec <NUM> <NUM>:<NUM>:<NUM> PST <NUM>,False,True,,"[ALERT 228] 2005-12-26 18:57-19:02 UTC | score higher than 94.7% of validation windows
+  Where: 1 node(s) | component DISCOVERY
+  What (largest contribution first):
+  - 1x ""Ido chip status changed FF F2 9F C0 EF 0D E9 3F ip v t status M Mon Dec PST"" [INFO] - never seen during training
+  - 1x ""Ido chip status changed FF F2 9F D0 0D E9 2F CC ip v t status M Mon Dec PST"" [INFO] - never seen during training
+  - 1x ""Ido chip status changed FF F2 9F D0 0D E9 2F EA ip v t status M Mon Dec PST"" [INFO] - never seen during training
+  Volume: 16 lines in window",0.35017207019753765
+52623,1,"ciod: Error reading message prefix on CioStream socket to <IP>, Link has been severed",True,True,True,"[ALERT 229] 2005-12-03 15:57-16:02 UTC | score higher than 94.6% of validation windows
+  Where: 324 node(s), 99% on midplane R47-M1 | component KERNEL
+  What (largest contribution first):
+  - 4x ""ciod Error reading message prefix on Cio Stream socket to Link has been severed"" [FATAL] - never seen during training
+  - 319x ""total interrupts. critical input interrupts. microseconds total spent on critical input..."" [INFO] - never seen during training
+  - 2x ""CE sym at mask"" [INFO] - seen 146,285x during training
+  Volume: 647 lines in window",0.34981753551847966
+54140,0,"ciod: Error loading <PATH><HEX><PATH>: invalid or missing program image, No such file or directory",False,True,,"[ALERT 230] 2005-12-08 22:22-22:27 UTC | score higher than 94.5% of validation windows
+  Where: 9 node(s), 94% on midplane R63-M0 | component KERNEL
+  What (largest contribution first):
+  - 16x ""ciod Error loading invalid or missing program image No such file or directory"" [FATAL] - never seen during training
+  - 16x ""ciod poll Control Descriptors Detected the debugger died"" [INFO] - seen 609x during training
+  Volume: 34 lines in window",0.3496912560039253
+59535,0,"external input interrupt (unit=<HEX> bit=<HEX>): number of corrected SRAM errors has exceeded threshold, suppressing further interrupts of same type",False,True,,"[ALERT 231] 2005-12-27 15:57-16:02 UTC | score higher than 94.5% of validation windows
+  Where: 3 node(s), 50% on midplane R75-M0 | component KERNEL
+  What (largest contribution first):
+  - 2x ""external input interrupt unit bit number of corrected SRAM errors has exceeded threshol..."" [INFO] - never seen during training
+  - 1x ""ddr activating redundant bit steering for next allocation rank symbol"" [INFO] - seen 46x during training
+  - 1x ""ddr Suppressing further CE interrupts"" [INFO] - never seen during training
+  Volume: 4 lines in window",0.34954757166926265
+51782,0,ddr: activating redundant bit steering for next allocation: rank=<NUM> symbol=<NUM>,False,False,,"[ALERT 232] 2005-11-30 17:52-17:57 UTC | score higher than 94.5% of validation windows
+  Where: 55 node(s), 4% on midplane R54-M0 | component KERNEL
+  What (largest contribution first):
+  - 13x ""ddr activating redundant bit steering for next allocation rank symbol"" [INFO] - seen 46x during training
+  - 10x ""critical input interrupt unit bit warning for tree C1 wire suppressing further interrup..."" [INFO] - never seen during training
+  - 7x ""critical input interrupt unit bit warning for torus z+ wire suppressing further interru..."" [INFO] - never seen during training
+  Volume: 55 lines in window",0.34948137649583877

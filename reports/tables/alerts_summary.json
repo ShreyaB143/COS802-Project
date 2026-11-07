@@ -1,0 +1,35 @@
+{
+  "best": {
+    "detector": "pf_tfidf|iforest|unsupervised",
+    "representation": "parser-free",
+    "n_alerts": 232,
+    "alert_precision": 0.5603448275862069,
+    "attribution_hit_rate": 0.5230769230769231,
+    "top_unit_unseen_rate": 0.646551724137931,
+    "midplane_match_rate": 0.7461538461538462,
+    "lines_per_alert": 268.53879310344826,
+    "compression_ratio": 2072.0560344827586
+  },
+  "template": {
+    "detector": "count|autoencoder|semi_supervised",
+    "representation": "template",
+    "n_alerts": 51,
+    "alert_precision": 1.0,
+    "attribution_hit_rate": 0.09803921568627451,
+    "top_unit_unseen_rate": 0.0392156862745098,
+    "midplane_match_rate": 0.8431372549019608,
+    "lines_per_alert": 436.7843137254902,
+    "compression_ratio": 9425.823529411764
+  },
+  "parser_free": {
+    "detector": "pf_tfidf|iforest|unsupervised",
+    "representation": "parser-free",
+    "n_alerts": 232,
+    "alert_precision": 0.5603448275862069,
+    "attribution_hit_rate": 0.5230769230769231,
+    "top_unit_unseen_rate": 0.646551724137931,
+    "midplane_match_rate": 0.7461538461538462,
+    "lines_per_alert": 268.53879310344826,
+    "compression_ratio": 2072.0560344827586
+  }
+}
