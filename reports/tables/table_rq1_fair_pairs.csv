@@ -1,0 +1,13 @@
+pair,model,regime,template_auc_pr,template_sd,parser_free_auc_pr,parser_free_sd,delta,clear_difference,template_novel,parser_free_novel
+tfidf vs pf_tfidf,autoencoder,semi_supervised,0.489,0.013,0.484,0.007,-0.005,False,0.517,0.513
+tfidf vs pf_tfidf,autoencoder,unsupervised,0.218,0.002,0.447,0.019,0.229,True,0.228,0.486
+tfidf vs pf_tfidf,iforest,semi_supervised,0.236,0.018,0.221,0.009,-0.015,False,0.292,0.27
+tfidf vs pf_tfidf,iforest,unsupervised,0.614,0.037,0.61,0.018,-0.004,False,0.689,0.68
+tfidf vs pf_tfidf,pca,semi_supervised,0.341,0.0,0.446,0.0,0.105,True,0.357,0.472
+tfidf vs pf_tfidf,pca,unsupervised,0.179,0.0,0.253,0.0,0.075,True,0.185,0.272
+sbert vs pf_sbert,autoencoder,semi_supervised,0.388,0.022,0.403,0.042,0.016,False,0.3,0.346
+sbert vs pf_sbert,autoencoder,unsupervised,0.097,0.005,0.108,0.008,0.011,True,0.098,0.111
+sbert vs pf_sbert,iforest,semi_supervised,0.46,0.024,0.472,0.081,0.012,False,0.613,0.628
+sbert vs pf_sbert,iforest,unsupervised,0.446,0.055,0.438,0.043,-0.007,False,0.618,0.607
+sbert vs pf_sbert,pca,semi_supervised,0.445,0.0,0.426,0.0,-0.019,True,0.385,0.355
+sbert vs pf_sbert,pca,unsupervised,0.135,0.0,0.134,0.0,-0.001,False,0.126,0.141

@@ -1,0 +1,16 @@
+feature_set,representation,model,regime,chrono_auc_pr,chrono_auc_pr_sd,random_auc_pr_mean,random_auc_pr_sd,chrono_f1,random_f1_mean,gap_auc_pr,gap_exceeds_sd
+count,template,iforest,semi_supervised,0.265,0.004,0.124,0.004,0.018,0.187,-0.141,True
+count,template,iforest,unsupervised,0.55,0.02,0.459,0.017,0.5,0.473,-0.091,True
+count,template,supervised_ref,supervised,0.695,0.0,0.966,0.004,0.713,0.971,0.271,True
+pf_sbert,parser-free,iforest,semi_supervised,0.486,0.051,0.28,0.047,0.296,0.379,-0.206,True
+pf_sbert,parser-free,iforest,unsupervised,0.467,0.024,0.303,0.048,0.232,0.358,-0.165,True
+pf_sbert,parser-free,supervised_ref,supervised,0.992,0.0,0.997,0.002,0.957,0.97,0.004,False
+pf_tfidf,parser-free,iforest,semi_supervised,0.217,0.009,0.137,0.017,0.391,0.298,-0.08,True
+pf_tfidf,parser-free,iforest,unsupervised,0.622,0.008,0.398,0.059,0.618,0.45,-0.224,True
+pf_tfidf,parser-free,supervised_ref,supervised,0.994,0.0,0.992,0.006,0.95,0.984,-0.003,False
+sbert,template,iforest,semi_supervised,0.462,0.026,0.329,0.053,0.322,0.385,-0.133,True
+sbert,template,iforest,unsupervised,0.443,0.05,0.289,0.061,0.249,0.362,-0.155,True
+sbert,template,supervised_ref,supervised,0.985,0.0,0.994,0.004,0.933,0.97,0.008,False
+tfidf,template,iforest,semi_supervised,0.244,0.017,0.135,0.012,0.405,0.271,-0.109,True
+tfidf,template,iforest,unsupervised,0.639,0.015,0.428,0.043,0.498,0.459,-0.212,True
+tfidf,template,supervised_ref,supervised,0.98,0.0,0.992,0.008,0.944,0.974,0.012,True

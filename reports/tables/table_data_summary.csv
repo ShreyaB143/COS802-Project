@@ -1,0 +1,16 @@
+,value
+lines,4747963.0
+anomalous_lines,348460.0
+line_anomaly_rate,0.07339147335394147
+days_spanned,214.7
+nodes,69252.0
+templates,392.0
+masked_messages,16107.0
+masked_messages_per_template_median,1.0
+windows,14501.0
+window_anomaly_rate,0.0725467209157989
+median_lines_per_window,6.0
+vocab_raw_tokens,638.0
+vocab_lemmas,506.0
+templates_with_any_alert_line,55.0
+alert_templates_always_alert,45.0

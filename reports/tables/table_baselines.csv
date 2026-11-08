@@ -1,0 +1,11 @@
+feature_set,model,regime,auc_pr,f1
+level_field,severity_rule,rule,0.665,0.686
+count,iforest,unsupervised,0.555,0.5
+count,iforest,semi_supervised,0.265,0.028
+count,pca,unsupervised,0.63,0.254
+count,pca,semi_supervised,0.654,0.5
+count,supervised_ref,supervised,0.695,0.713
+tfidf,supervised_ref,supervised,0.98,0.944
+sbert,supervised_ref,supervised,0.985,0.933
+pf_tfidf,supervised_ref,supervised,0.994,0.95
+pf_sbert,supervised_ref,supervised,0.992,0.957

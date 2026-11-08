@@ -1,0 +1,8 @@
+regime,semi_supervised,semi_supervised,semi_supervised,unsupervised,unsupervised,unsupervised
+model,autoencoder,iforest,pca,autoencoder,iforest,pca
+feature_set,,,,,,
+count,0.61,0.265,0.654,0.594,0.555,0.63
+pf_sbert,0.403,0.472,0.426,0.108,0.438,0.134
+pf_tfidf,0.484,0.221,0.446,0.447,0.61,0.253
+sbert,0.388,0.46,0.445,0.097,0.446,0.135
+tfidf,0.489,0.236,0.341,0.218,0.614,0.179

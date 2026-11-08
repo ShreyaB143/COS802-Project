@@ -1,0 +1,11 @@
+feature_set,regime,content_features,constant_in_training,anomalous_test_windows_using_them,normal_test_windows_using_them,anomalous_with_novelty_signal,normal_with_novelty_signal,iforest_auc_pr
+count,unsupervised,392,105,0.917,0.735,0.917,0.735,0.555
+count,semi_supervised,392,221,1.0,0.735,1.0,0.735,0.265
+tfidf,unsupervised,433,0,0.0,0.0,0.917,0.735,0.614
+tfidf,semi_supervised,328,0,0.0,0.0,1.0,0.735,0.236
+sbert,unsupervised,768,4,0.0,0.0,0.917,0.735,0.446
+sbert,semi_supervised,768,4,0.0,0.0,1.0,0.735,0.46
+pf_tfidf,unsupervised,575,0,0.0,0.0,0.923,0.747,0.61
+pf_tfidf,semi_supervised,454,0,0.0,0.0,1.0,0.747,0.221
+pf_sbert,unsupervised,768,4,0.0,0.0,0.923,0.747,0.438
+pf_sbert,semi_supervised,768,4,0.0,0.0,1.0,0.747,0.472
