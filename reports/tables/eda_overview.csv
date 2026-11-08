@@ -1,0 +1,15 @@
+,value
+log lines,4747963
+malformed lines skipped,0
+first entry,2005-06-03 22:42:50
+last entry,2006-01-04 16:00:05
+days spanned,214.7
+alert lines,348460
+alert line rate,7.34%
+alert categories,41
+distinct nodes,69252
+components,14
+severity levels,10
+Drain3 templates,392
+masked messages (parser-free),16107
+5-minute windows (non-empty),14501

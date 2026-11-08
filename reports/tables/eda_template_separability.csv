@@ -1,0 +1,5 @@
+,templates,lines,alert_lines,share_of_alert_lines
+never alert,337,4379176,0,0.0
+mostly normal,6,22573,2729,0.008
+mostly alert,4,66805,66322,0.19
+always alert,45,279409,279409,0.802

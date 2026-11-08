@@ -1,0 +1,6 @@
+window_minutes,non_empty_windows,anomalous_share,median_lines
+1,27659,0.0654,4.0
+5,14501,0.0725,6.0
+15,8590,0.0999,12.0
+30,5773,0.1313,20.0
+60,3607,0.1844,49.0

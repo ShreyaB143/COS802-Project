@@ -1,0 +1,8 @@
+,value
+templates,392.0
+masked messages,16107.0
+masked messages per template (median),1.0
+masked messages per template (max),10084.0
+templates with > 1 masked message,115.0
+masked messages split across > 1 template,0.0
+vocabulary of masked messages (lemmas),672.0

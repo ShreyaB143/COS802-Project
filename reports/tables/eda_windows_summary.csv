@@ -1,0 +1,8 @@
+,value
+non-empty windows,14501
+anomalous windows,1052
+window anomaly rate,7.25%
+lines per window (median),6.0
+lines per window (95th pct),1040.0
+distinct templates per window (median),2.0
+alert lines per anomalous window (median),8.0
